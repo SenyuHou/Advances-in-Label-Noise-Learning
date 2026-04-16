@@ -600,3 +600,9 @@ Radiography Abnormality Assessment. [[Paper]](https://arxiv.org/pdf/2104.05261.p
 * RAR-U-Net: a Residual Encoder to Attention Decoder by Residual Connections Framework for Spine Segmentation under Noisy Labels. [[Paper]](https://arxiv.org/pdf/2009.12873.pdf)
 * Learning from Small Amount of Medical Data with Noisy Labels: A Meta-Learning Approach. [[Paper]](https://arxiv.org/pdf/2010.06939.pdf)
 -----
+
+## Acknowledgements
+
+This repository is partially based on and inspired by the following project:
+
+- https://github.com/weijiaheng/Advances-in-Label-Noise-Learning
