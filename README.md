@@ -75,23 +75,35 @@ An advanced data-centric AI platform that detects and rectifies issues in any da
 ## Benchmarks & Leaderboard
 Real-world noisy-label bechmarks:
 
-Dataset | Leaderboard Link | Website | Paper
+Dataset | Noise Rate | Website | Paper
 --- | --- | --- | ---
-CIFAR-10N | [[Leaderboard]](http://noisylabels.com/) | [[Website]](http://noisylabels.com/) | [[Paper]](https://arxiv.org/abs/2110.12088) 
-CIFAR-100N | [[Leaderboard]](http://noisylabels.com/) | [[Website]](http://noisylabels.com/)  | [[Paper]](https://arxiv.org/abs/2110.12088)
-Red Stanford Cars | N/A | [[Website]](https://ai.googleblog.com/2020/08/understanding-deep-learning-on.html)  | [[Paper]](http://proceedings.mlr.press/v119/jiang20c/jiang20c.pdf)
-Red Mini-ImageNet | N/A | [[Website]](https://ai.googleblog.com/2020/08/understanding-deep-learning-on.html)  | [[Paper]](http://proceedings.mlr.press/v119/jiang20c/jiang20c.pdf)
- Animal-10N | [[Leaderboard]](https://paperswithcode.com/dataset/animal) | [[Website]](https://dm.kaist.ac.kr/datasets/animal-10n/)  | [[Paper]](http://proceedings.mlr.press/v97/song19b.html)
- Food-101N | N/A| [[Website]](https://github.com/kuanghuei/clean-net)  | [[Paper]](https://arxiv.org/pdf/1711.07131.pdf)
- Clothing1M  | [[Leaderboard]](https://paperswithcode.com/dataset/clothing1m) | [[Website]](https://github.com/Cysu/noisy_label)  | [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Xiao_Learning_From_Massive_2015_CVPR_paper.pdf)
+CIFAR-10N | ~8%/~20%/~40% (human label noise) | [[Website]](http://noisylabels.com/) | [[Paper]](https://arxiv.org/abs/2110.12088) 
+CIFAR-100N | ~40% (human label noise) | [[Website]](http://noisylabels.com/)  | [[Paper]](https://arxiv.org/abs/2110.12088)
+Red Stanford Cars | ~40% (synthetic noise) | [[Website]](https://ai.googleblog.com/2020/08/understanding-deep-learning-on.html)  | [[Paper]](http://proceedings.mlr.press/v119/jiang20c/jiang20c.pdf)
+Red Mini-ImageNet | ~40% (synthetic noise) | [[Website]](https://ai.googleblog.com/2020/08/understanding-deep-learning-on.html)  | [[Paper]](http://proceedings.mlr.press/v119/jiang20c/jiang20c.pdf)
+Animal-10N | ~8% (real-world noise) | [[Website]](https://dm.kaist.ac.kr/datasets/animal-10n/)  | [[Paper]](http://proceedings.mlr.press/v97/song19b.html)
+Food-101N | ~20% (human label noise) | [[Website]](https://github.com/kuanghuei/clean-net)  | [[Paper]](https://arxiv.org/pdf/1711.07131.pdf)
+Clothing1M  | ~38% (real-world noise) | [[Website]](https://github.com/Cysu/noisy_label)  | [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Xiao_Learning_From_Massive_2015_CVPR_paper.pdf)
  
  Simulation of label noise:
+ 
+ IDN:
+
+ Part-dependent Label Noise: Towards Instance-dependent Label Noise. [[Paper]](https://arxiv.org/abs/2006.07836)[[Code]](https://github.com/xiaoboxia/Part-dependent-label-noise)
+
+ Beyond Class-Conditional Assumption: A Primary Attempt to Combat Instance-Dependent Label Noise. [[Paper]](https://arxiv.org/abs/2012.05458) [[Code]](https://github.com/chenpf1025/IDN)
+ 
  An Instance-Dependent Simulation Framework for Learning with Label Noise. [[Paper]](https://arxiv.org/abs/2107.11413)
 
+ 
+ 
+ PMD:
+ 
+ Learning with Feature-Dependent Label Noise: A Progressive Approach. [[Paper]](https://openreview.net/pdf?id=ZPa2SyGcbwh)[[Code]](https://github.com/pxiangwu/PLC)
 
 
 
-This repo focus on papers after 2019, for previous works, please refer to (https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise).
+This repo focus on papers after 2019, for previous works, please refer to [[Website]](https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise).
 
 ## Papers & Code in 2024
 
