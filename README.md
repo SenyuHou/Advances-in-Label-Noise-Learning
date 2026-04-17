@@ -101,255 +101,998 @@ This repo focus on papers after 2019, for previous works, please refer to (https
 
 -----
 ### Neurips 2024 
-* Learning the Latent Causal Structure for Modeling Label Noise. [[Paper]](https://nips.cc/virtual/2024/poster/93700)
-* Entity Alignment with Noisy Annotations from Large Language Models. [[Paper]](https://nips.cc/virtual/2024/poster/93478)
-* Noisy Label Learning with Instance-Dependent Outliers: Identifiability via Crowd Wisdom. [[Paper]](https://nips.cc/virtual/2024/poster/95831)
-* Vision-Language Models are Strong Noisy Label Detectors. [[Paper]](https://nips.cc/virtual/2024/poster/94056)
-* Benchmarking the Reasoning Robustness against Noisy Rationales in Chain-of-thought Prompting. [[Paper]](https://nips.cc/virtual/2024/poster/95956)
-* Learning from Noisy Labels via Conditional Distributionally Robust Optimization. [[Paper]](https://nips.cc/virtual/2024/poster/96820)
-*Sample Selection via Contrastive Fragmentation for Noisy Label Regression. [[Paper]](https://nips.cc/virtual/2024/poster/95898)
-* Label Noise: Ignorance Is Bliss. [[Paper]](https://nips.cc/virtual/2024/poster/94205)
-* CoSW: Conditional Sample Weighting for Smoke Segmentation with Label Noise. [[Paper]](https://nips.cc/virtual/2024/poster/95170)
-* Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment. [[Paper]](https://nips.cc/virtual/2024/poster/93906)
-* Curriculum Fine-tuning of Vision Foundation Model for Medical Image Classification Under Label Noise. [[Paper]](https://nips.cc/virtual/2024/poster/93198)[[Code]](https://github.com/gist-ailab/CUFIT)
-* NoisyGL: A Comprehensive Benchmark for Graph Neural Networks under Label Noise. [[Paper]](https://nips.cc/virtual/2024/poster/97611)
-* Noisy Ostracods: A Fine-Grained, Imbalanced Real-World Dataset for Benchmarking Robust Machine Learning and Label Correction Methods. [[Paper]](https://nips.cc/virtual/2024/poster/97733)
-* Robust Contrastive Multi-view Clustering against Dual Noisy Correspondence. [[Paper]](https://nips.cc/virtual/2024/poster/96528)
-* Perplexity-aware Correction for Robust Alignment with Noisy Preferences. [[Paper]](https://nips.cc/virtual/2024/poster/95367)
-* Information-theoretic Limits of Online Classification with Noisy Labels. [[Paper]](https://nips.cc/virtual/2024/poster/95650)
+* Learning the Latent Causal Structure for Modeling Label Noise. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://nips.cc/virtual/2024/poster/93700)
+
+* Entity Alignment with Noisy Annotations from Large Language Models. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/93478)
+
+* Noisy Label Learning with Instance-Dependent Outliers: Identifiability via Crowd Wisdom. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://nips.cc/virtual/2024/poster/95831)
+
+* Vision-Language Models are Strong Noisy Label Detectors. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/94056)
+
+* Benchmarking the Reasoning Robustness against Noisy Rationales in Chain-of-thought Prompting. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/95956)
+
+* Learning from Noisy Labels via Conditional Distributionally Robust Optimization. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://nips.cc/virtual/2024/poster/96820)
+
+* Sample Selection via Contrastive Fragmentation for Noisy Label Regression. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/95898)
+
+* Label Noise: Ignorance Is Bliss. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://nips.cc/virtual/2024/poster/94205)
+
+* CoSW: Conditional Sample Weighting for Smoke Segmentation with Label Noise. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/95170)
+
+* Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/93906)
+
+* Curriculum Fine-tuning of Vision Foundation Model for Medical Image Classification Under Label Noise. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/93198)[[Code]](https://github.com/gist-ailab/CUFIT)
+
+* NoisyGL: A Comprehensive Benchmark for Graph Neural Networks under Label Noise. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/97611)
+
+* Noisy Ostracods: A Fine-Grained, Imbalanced Real-World Dataset for Benchmarking Robust Machine Learning and Label Correction Methods. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/97733)
+
+* Robust Contrastive Multi-view Clustering against Dual Noisy Correspondence. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/96528)
+
+* Perplexity-aware Correction for Robust Alignment with Noisy Preferences. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://nips.cc/virtual/2024/poster/95367)
+
+* Information-theoretic Limits of Online Classification with Noisy Labels. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://nips.cc/virtual/2024/poster/95650)
 
 -----
 ### ICML 2024 
-* Pi-DUAL: Using privileged information to distinguish clean from noisy labels. [[Paper]](https://proceedings.mlr.press/v235/wang24bb.html)
-* Mitigating Label Noise on Graphs via Topological Sample Selection. [[Paper]](https://proceedings.mlr.press/v235/wu24ae.html)
-* Self-cognitive Denoising in the Presence of Multiple Noisy Label Sources. [[Paper]](https://proceedings.mlr.press/v235/sun24o.html)
-* Provably Robust DPO: Aligning Language Models with Noisy Feedback. [[Paper]](https://proceedings.mlr.press/v235/ray-chowdhury24a.html)
-* Consistent Diffusion Meets Tweedie: Training Exact Ambient Diffusion Models with Noisy Data. [[Paper]](https://proceedings.mlr.press/v235/daras24a.html)
-* RIME: Robust Preference-based Reinforcement Learning with Noisy Preferences. [[Paper]](https://proceedings.mlr.press/v235/cheng24k.html)
-* FAFE: Immune Complex Modeling with Geodesic Distance Loss on Noisy Group Frames. [[Paper]](https://proceedings.mlr.press/v235/wu24g.html)
+* Pi-DUAL: Using privileged information to distinguish clean from noisy labels. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://proceedings.mlr.press/v235/wang24bb.html)
+
+* Mitigating Label Noise on Graphs via Topological Sample Selection. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://proceedings.mlr.press/v235/wu24ae.html)
+
+* Self-cognitive Denoising in the Presence of Multiple Noisy Label Sources. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://proceedings.mlr.press/v235/sun24o.html)
+
+* Provably Robust DPO: Aligning Language Models with Noisy Feedback. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://proceedings.mlr.press/v235/ray-chowdhury24a.html)
+
+* Consistent Diffusion Meets Tweedie: Training Exact Ambient Diffusion Models with Noisy Data. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://proceedings.mlr.press/v235/daras24a.html)
+
+* RIME: Robust Preference-based Reinforcement Learning with Noisy Preferences. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://proceedings.mlr.press/v235/cheng24k.html)
+
+* FAFE: Immune Complex Modeling with Geodesic Distance Loss on Noisy Group Frames. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://proceedings.mlr.press/v235/wu24g.html)
 
 -----
 ### ICLR 2024 
-* Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks. [[Paper]](https://openreview.net/forum?id=TjhUtloBZU)
-* Early Stopping Against Label Noise Without Validation Data. [[Paper]](https://openreview.net/forum?id=CMzF2aOfqp)
-* Label-Noise Robust Diffusion Models. [[Paper]](https://openreview.net/forum?id=HXWTXXtHNl)
-* Why is SAM Robust to Label Noise? [[Paper]](https://openreview.net/forum?id=3aZCPl3ZvR)
-* Local Graph Clustering with Noisy Labels. [[Paper]](https://openreview.net/forum?id=89A5c6enfc)
-* Dirichlet-based Per-Sample Weighting by Transition Matrix for Noisy Label Learning. [[Paper]](https://openreview.net/forum?id=A4mJuFRMN8)
-* MOFI: Learning Image Representations from Noisy Entity Annotated Images. [[Paper]](https://openreview.net/forum?id=QQYpgReSRk)
-* Robust Classification via Regression for Learning with Noisy Labels. [[Paper]](https://openreview.net/forum?id=wfgZc3IMqo)
-* TextField3D: Towards Enhancing Open-Vocabulary 3D Generation with Noisy Text Fields. [[Paper]](https://openreview.net/forum?id=WOiOzHG2zD)
+* Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=TjhUtloBZU)
+
+* Early Stopping Against Label Noise Without Validation Data. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=CMzF2aOfqp)
+
+* Label-Noise Robust Diffusion Models. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=HXWTXXtHNl)
+
+* Why is SAM Robust to Label Noise? 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=3aZCPl3ZvR)
+
+* Local Graph Clustering with Noisy Labels. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=89A5c6enfc)
+
+* Dirichlet-based Per-Sample Weighting by Transition Matrix for Noisy Label Learning. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=A4mJuFRMN8)
+
+* MOFI: Learning Image Representations from Noisy Entity Annotated Images. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=QQYpgReSRk)
+
+* Robust Classification via Regression for Learning with Noisy Labels. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=wfgZc3IMqo)
+
+* TextField3D: Towards Enhancing Open-Vocabulary 3D Generation with Noisy Text Fields. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=WOiOzHG2zD)
 
 ## Papers & Code in 2023
 
 -----
 ### ICCV 2023 
-* PADDLES: Phase-Amplitude Spectrum Disentangled Early Stopping for Learning with Noisy Labels. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_PADDLES_Phase-Amplitude_Spectrum_Disentangled_Early_Stopping_for_Learning_with_Noisy_ICCV_2023_paper.pdf)[[Code]](https://github.com/CoderHHX/PADDLES)
-* Sample-wise Label Confidence Incorporation for Learning with Noisy Labels. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ahn_Sample-wise_Label_Confidence_Incorporation_for_Learning_with_Noisy_Labels_ICCV_2023_paper.pdf)
-* SILT: Shadow-Aware Iterative Label Tuning for Learning to Detect Shadows from Noisy Labels. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_SILT_Shadow-Aware_Iterative_Label_Tuning_for_Learning_to_Detect_Shadows_ICCV_2023_paper.pdf)[[Code]](https://github.com/hanyangclarence/SILT)
-* Graph Matching with Bi-level Noisy Correspondence. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lin_Graph_Matching_with_Bi-level_Noisy_Correspondence_ICCV_2023_paper.pdf)[[Code]](https://github.com/XLearning-SCU/2023-ICCV-COMMON)
-* Learning from Noisy Pseudo Labels for Semi-Supervised Temporal Action Localization. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_Learning_from_Noisy_Pseudo_Labels_for_Semi-Supervised_Temporal_Action_Localization_ICCV_2023_paper.pdf)[[Code]](https://github.com/kunnxia/NPL)
-* Label-Noise Learning with Intrinsically Long-Tailed Data. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_Label-Noise_Learning_with_Intrinsically_Long-Tailed_Data_ICCV_2023_paper.pdf)
-* Semi-Supervised Semantic Segmentation under Label Noise via Diverse Learning Groups. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Semi-Supervised_Semantic_Segmentation_under_Label_Noise_via_Diverse_Learning_Groups_ICCV_2023_paper.pdf)
-* LA-Net: Landmark-Aware Learning for Reliable Facial Expression Recognition under Label Noise. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_LA-Net_Landmark-Aware_Learning_for_Reliable_Facial_Expression_Recognition_under_Label_ICCV_2023_paper.pdf)
-* Holistic Label Correction for Noisy Multi-Label Classification. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_Holistic_Label_Correction_for_Noisy_Multi-Label_Classification_ICCV_2023_paper.pdf)[[Code]](https://github.com/xiaoboxia/HLC)
-* When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_When_Noisy_Labels_Meet_Long_Tail_Dilemmas_A_Representation_Calibration_ICCV_2023_paper.pdf)
-* Combating Noisy Labels with Sample Selection by Mining High-Discrepancy Examples. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_Combating_Noisy_Labels_with_Sample_Selection_by_Mining_High-Discrepancy_Examples_ICCV_2023_paper.pdf)[[Code]](https://github.com/xiaoboxia/CoDis)
-* Why Is Prompt Tuning for Vision-Language Models Robust to Noisy Labels? [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Why_Is_Prompt_Tuning_for_Vision-Language_Models_Robust_to_Noisy_ICCV_2023_paper.pdf)[[Code]](https://github.com/CEWu/PTNL)
-* RankMatch: Fostering Confidence and Consistency in Learning with Noisy Labels. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_RankMatch_Fostering_Confidence_and_Consistency_in_Learning_with_Noisy_Labels_ICCV_2023_paper.pdf)
-* Learning from Noisy Data for Semi-Supervised 3D Object Detection. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Learning_from_Noisy_Data_for_Semi-Supervised_3D_Object_Detection_ICCV_2023_paper.pdf)[[Code]](https://github.com/zehuichen123/NoiseDet)
-* LNPL-MIL: Learning from Noisy Pseudo Labels for Promoting Multiple Instance Learning in Whole Slide Image. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Shao_LNPL-MIL_Learning_from_Noisy_Pseudo_Labels_for_Promoting_Multiple_Instance_ICCV_2023_paper.pdf)[[Code]](https://github.com/szc19990412/LNPL-MIL)
-* BoMD: Bag of Multi-label Descriptors for Noisy Chest X-ray Classification. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_BoMD_Bag_of_Multi-label_Descriptors_for_Noisy_Chest_X-ray_Classification_ICCV_2023_paper.pdf)[[Code]](https://github.com/cyh-0/BoMD)
+* PADDLES: Phase-Amplitude Spectrum Disentangled Early Stopping for Learning with Noisy Labels. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_PADDLES_Phase-Amplitude_Spectrum_Disentangled_Early_Stopping_for_Learning_with_Noisy_ICCV_2023_paper.pdf)[[Code]](https://github.com/CoderHHX/PADDLES)
+
+* Sample-wise Label Confidence Incorporation for Learning with Noisy Labels. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ahn_Sample-wise_Label_Confidence_Incorporation_for_Learning_with_Noisy_Labels_ICCV_2023_paper.pdf)
+
+* SILT: Shadow-Aware Iterative Label Tuning for Learning to Detect Shadows from Noisy Labels. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_SILT_Shadow-Aware_Iterative_Label_Tuning_for_Learning_to_Detect_Shadows_ICCV_2023_paper.pdf)[[Code]](https://github.com/hanyangclarence/SILT)
+
+* Graph Matching with Bi-level Noisy Correspondence. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lin_Graph_Matching_with_Bi-level_Noisy_Correspondence_ICCV_2023_paper.pdf)[[Code]](https://github.com/XLearning-SCU/2023-ICCV-COMMON)
+
+* Learning from Noisy Pseudo Labels for Semi-Supervised Temporal Action Localization. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_Learning_from_Noisy_Pseudo_Labels_for_Semi-Supervised_Temporal_Action_Localization_ICCV_2023_paper.pdf)[[Code]](https://github.com/kunnxia/NPL)
+
+* Label-Noise Learning with Intrinsically Long-Tailed Data. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_Label-Noise_Learning_with_Intrinsically_Long-Tailed_Data_ICCV_2023_paper.pdf)
+
+* Semi-Supervised Semantic Segmentation under Label Noise via Diverse Learning Groups. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Semi-Supervised_Semantic_Segmentation_under_Label_Noise_via_Diverse_Learning_Groups_ICCV_2023_paper.pdf)
+
+* LA-Net: Landmark-Aware Learning for Reliable Facial Expression Recognition under Label Noise. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_LA-Net_Landmark-Aware_Learning_for_Reliable_Facial_Expression_Recognition_under_Label_ICCV_2023_paper.pdf)
+
+* Holistic Label Correction for Noisy Multi-Label Classification. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_Holistic_Label_Correction_for_Noisy_Multi-Label_Classification_ICCV_2023_paper.pdf)[[Code]](https://github.com/xiaoboxia/HLC)
+
+* When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_When_Noisy_Labels_Meet_Long_Tail_Dilemmas_A_Representation_Calibration_ICCV_2023_paper.pdf)
+
+* Combating Noisy Labels with Sample Selection by Mining High-Discrepancy Examples. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xia_Combating_Noisy_Labels_with_Sample_Selection_by_Mining_High-Discrepancy_Examples_ICCV_2023_paper.pdf)[[Code]](https://github.com/xiaoboxia/CoDis)
+
+* Why Is Prompt Tuning for Vision-Language Models Robust to Noisy Labels? 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Why_Is_Prompt_Tuning_for_Vision-Language_Models_Robust_to_Noisy_ICCV_2023_paper.pdf)[[Code]](https://github.com/CEWu/PTNL)
+
+* RankMatch: Fostering Confidence and Consistency in Learning with Noisy Labels. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_RankMatch_Fostering_Confidence_and_Consistency_in_Learning_with_Noisy_Labels_ICCV_2023_paper.pdf)
+
+* Learning from Noisy Data for Semi-Supervised 3D Object Detection. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Learning_from_Noisy_Data_for_Semi-Supervised_3D_Object_Detection_ICCV_2023_paper.pdf)[[Code]](https://github.com/zehuichen123/NoiseDet)
+
+* LNPL-MIL: Learning from Noisy Pseudo Labels for Promoting Multiple Instance Learning in Whole Slide Image. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Shao_LNPL-MIL_Learning_from_Noisy_Pseudo_Labels_for_Promoting_Multiple_Instance_ICCV_2023_paper.pdf)[[Code]](https://github.com/szc19990412/LNPL-MIL)
+
+* BoMD: Bag of Multi-label Descriptors for Noisy Chest X-ray Classification. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_BoMD_Bag_of_Multi-label_Descriptors_for_Noisy_Chest_X-ray_Classification_ICCV_2023_paper.pdf)[[Code]](https://github.com/cyh-0/BoMD)
   
 -----
 ### KDD 2023 
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL)  To Aggregate or Not? Learning with Separate Noisy Labels. [[Paper]](https://arxiv.org/abs/2206.07181)
-* DyGen: Learning from Noisy Labels via Dynamics-Enhanced Generative Modeling. [[Paper]](https://dl.acm.org/doi/10.1145/3580305.3599318)[[Code]](https://github.com/night-chen/DyGen)
-* Robust Positive-Unlabeled Learning via Noise Negative Sample Self-correction. [[Paper]](https://dl.acm.org/doi/10.1145/3580305.3599491)
-* Neural-Hidden-CRF: A Robust Weakly-Supervised Sequence Labeler. [[Paper]](https://browse.arxiv.org/pdf/2309.05086.pdf)[[Code]](https://github.com/junchenzhi/Neural-Hidden-CRF)
-* Complementary Classifier Induced Partial Label Learning. [[Paper]](https://arxiv.org/abs/2305.09897)[[Code]](https://github.com/Chongjie-Si/PL-CL)
-* Partial-label Learning with Mixed Closed-Set and Open-Set Out-of-Candidate Examples. [[Paper]](https://arxiv.org/abs/2307.00553)
-* Weakly Supervised Multi-Label Classification of Full-Text Scientific Papers. [[Paper]](https://arxiv.org/abs/2306.14003)[[Code]](https://github.com/yuzhimanhua/FUTEX)
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL)  To Aggregate or Not? Learning with Separate Noisy Labels. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2206.07181)
+
+* DyGen: Learning from Noisy Labels via Dynamics-Enhanced Generative Modeling. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://dl.acm.org/doi/10.1145/3580305.3599318)[[Code]](https://github.com/night-chen/DyGen)
+
+* Robust Positive-Unlabeled Learning via Noise Negative Sample Self-correction. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://dl.acm.org/doi/10.1145/3580305.3599491)
+
+* Neural-Hidden-CRF: A Robust Weakly-Supervised Sequence Labeler. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://browse.arxiv.org/pdf/2309.05086.pdf)[[Code]](https://github.com/junchenzhi/Neural-Hidden-CRF)
+
+* Complementary Classifier Induced Partial Label Learning. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2305.09897)[[Code]](https://github.com/Chongjie-Si/PL-CL)
+
+* Partial-label Learning with Mixed Closed-Set and Open-Set Out-of-Candidate Examples. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2307.00553)
+
+* Weakly Supervised Multi-Label Classification of Full-Text Scientific Papers. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2306.14003)[[Code]](https://github.com/yuzhimanhua/FUTEX)
 
 -----
 ### NeurIPS 2023 
-* The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning. [[Paper]](https://openreview.net/forum?id=3GpIeVYw8X)[[Code]](https://brbiclab.epfl.ch/projects/hume/)
-* AQuA: A Benchmarking Tool for Label Quality Assessment. [[Paper]](https://openreview.net/forum?id=dhJ8VbcEtX)
-* Efficient Testable Learning of Halfspaces with Adversarial Label Noise. [[Paper]](https://openreview.net/forum?id=mIm0hsUUt1)
-* Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data. [[Paper]](https://arxiv.org/abs/2301.12321)[[Code]](https://github.com/snu-mllab/Neural-Relation-Graph)
-* Robust Data Pruning under Label Noise via Maximizing Re-labeling Accuracy. [[Paper]](https://openreview.net/forum?id=xWCp0uLcpG)
-* Subclass-Dominant Label Noise: A Counterexample for the Success of Early Stopping. [[Paper]](https://openreview.net/forum?id=kR21XsZeAr)[[Code]](https://github.com/tmllab/2023_NeurIPS_SDN)
-* Label Correction of Crowdsourced Noisy Annotations with an Instance-Dependent Noise Transition Model. [[Paper]](https://openreview.net/forum?id=nFEQNYsjQO)
-* Scale-teaching: Robust Multi-scale Training for Time Series Classification with Noisy Labels. [[Paper]](https://openreview.net/forum?id=9D0fELXbrg)[[Code]](https://github.com/qianlima-lab/Scale-teaching)
-* SoTTA: Robust Test-Time Adaptation on Noisy Data Streams. [[Paper]](https://arxiv.org/abs/2310.10074)[[Code]](https://github.com/taeckyung/SoTTA)
-* Active Negative Loss Functions for Learning with Noisy Labels. [[Paper]](https://neurips.cc/virtual/2023/poster/71501)[[Code]](https://github.com/Virusdoll/Active-Negative-Loss)
-* Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels. [[Paper]](https://arxiv.org/abs/2305.19518)[[Code]](https://github.com/puar-playground/LRA-diffusion)
-* Training shallow ReLU networks on noisy data using hinge loss: when do we overfit and is it benign? [[Paper]](https://arxiv.org/abs/2306.09955)
-* CSOT: Curriculum and Structure-Aware Optimal Transport for Learning with Noisy Labels. [[Paper]](https://openreview.net/forum?id=y50AnAbKp1)[[Code]](https://github.com/changwxx/CSOT-for-LNL)
-* Deep Insights into Noisy Pseudo Labeling on Graph Data. [[Paper]](https://openreview.net/forum?id=XhNlBvb4XV)
-* ARTIC3D: Learning Robust Articulated 3D Shapes from Noisy Web Image Collections. [[Paper]](https://openreview.net/forum?id=rJc5Lsn5QU)[[Code]](https://chhankyao.github.io/artic3d/)
-* ALIM: Adjusting Label Importance Mechanism for Noisy Partial Label Learning. [[Paper]](https://openreview.net/forum?id=PYSfn5xXEe)[[Code]](https://github.com/zeroQiaoba/ALIM)
-* Weakly-Supervised Concealed Object Segmentation with SAM-based Pseudo Labeling and Multi-scale Feature Grouping. [[Paper]](https://arxiv.org/abs/2305.11003)[[Code]](https://github.com/ChunmingHe/WS-SAM)
-* Label Poisoning is All You Need. [[Paper]](https://arxiv.org/abs/2310.18933)[[Code]](https://github.com/SewoongLab/FLIP)
-* SLaM: Student-Label Mixing for Distillation with Unlabeled Examples. [[Paper]](https://openreview.net/forum?id=N7tw0QXx3z)
-* IPMix: Label-Preserving Data Augmentation Method for Training Robust Classifiers. [[Paper]](https://openreview.net/forum?id=No52399wXA)
-* HQA-Attack: Toward High Quality Black-Box Hard-Label Adversarial Attack on Text. [[Paper]](https://openreview.net/forum?id=IOuuLBrGJR)[[Code]](https://github.com/HQA-Attack/HQAAttack-demo)
+* The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=3GpIeVYw8X)[[Code]](https://brbiclab.epfl.ch/projects/hume/)
+
+* AQuA: A Benchmarking Tool for Label Quality Assessment. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=dhJ8VbcEtX)
+
+* Efficient Testable Learning of Halfspaces with Adversarial Label Noise. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=mIm0hsUUt1)
+
+* Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2301.12321)[[Code]](https://github.com/snu-mllab/Neural-Relation-Graph)
+
+* Robust Data Pruning under Label Noise via Maximizing Re-labeling Accuracy. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=xWCp0uLcpG)
+
+* Subclass-Dominant Label Noise: A Counterexample for the Success of Early Stopping. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=kR21XsZeAr)[[Code]](https://github.com/tmllab/2023_NeurIPS_SDN)
+
+* Label Correction of Crowdsourced Noisy Annotations with an Instance-Dependent Noise Transition Model. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=nFEQNYsjQO)
+
+* Scale-teaching: Robust Multi-scale Training for Time Series Classification with Noisy Labels. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=9D0fELXbrg)[[Code]](https://github.com/qianlima-lab/Scale-teaching)
+
+* SoTTA: Robust Test-Time Adaptation on Noisy Data Streams. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2310.10074)[[Code]](https://github.com/taeckyung/SoTTA)
+
+* Active Negative Loss Functions for Learning with Noisy Labels. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://neurips.cc/virtual/2023/poster/71501)[[Code]](https://github.com/Virusdoll/Active-Negative-Loss)
+
+* Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2305.19518)[[Code]](https://github.com/puar-playground/LRA-diffusion)
+
+* Training shallow ReLU networks on noisy data using hinge loss: when do we overfit and is it benign? 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2306.09955)
+
+* CSOT: Curriculum and Structure-Aware Optimal Transport for Learning with Noisy Labels. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=y50AnAbKp1)[[Code]](https://github.com/changwxx/CSOT-for-LNL)
+
+* Deep Insights into Noisy Pseudo Labeling on Graph Data. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=XhNlBvb4XV)
+
+* ARTIC3D: Learning Robust Articulated 3D Shapes from Noisy Web Image Collections. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=rJc5Lsn5QU)[[Code]](https://chhankyao.github.io/artic3d/)
+
+* ALIM: Adjusting Label Importance Mechanism for Noisy Partial Label Learning. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=PYSfn5xXEe)[[Code]](https://github.com/zeroQiaoba/ALIM)
+
+* Weakly-Supervised Concealed Object Segmentation with SAM-based Pseudo Labeling and Multi-scale Feature Grouping. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2305.11003)[[Code]](https://github.com/ChunmingHe/WS-SAM)
+
+* Label Poisoning is All You Need. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2310.18933)[[Code]](https://github.com/SewoongLab/FLIP)
+
+* SLaM: Student-Label Mixing for Distillation with Unlabeled Examples. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=N7tw0QXx3z)
+
+* IPMix: Label-Preserving Data Augmentation Method for Training Robust Classifiers. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=No52399wXA)
+
+* HQA-Attack: Toward High Quality Black-Box Hard-Label Adversarial Attack on Text. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=IOuuLBrGJR)[[Code]](https://github.com/HQA-Attack/HQAAttack-demo)
 
 -----
 ### ICML 2023 
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL)  Identifiability of Label Noise Transition Matrix. [[Paper]](https://proceedings.mlr.press/v202/liu23g)
-* Which is Better for Learning with Noisy Labels: The Semi-supervised Method or Modeling Label Noise? [[Paper]](https://proceedings.mlr.press/v202/yao23a)
-* Mitigating Memorization of Noisy Labels by Clipping the Model Prediction. [[Paper]](https://arxiv.org/abs/2212.04055)[[Code]](https://github.com/hongxin001/LogitClip)
-* CrossSplit: Mitigating Label Noise Memorization through Data Splitting. [[Paper]](http://proceedings.mlr.press/v202/kim23a/kim23a.pdf)[[Code]](https://github.com/SAITPublic/CrossSplit)
-* Understanding Self-Distillation in the Presence of Label Noise. [[Paper]](http://proceedings.mlr.press/v202/das23d/das23d.pdf)
-* RandomClassificationNoisedoesnotdefeatAllConvexPotentialBoosters IrrespectiveofModelChoice. [[Paper]](https://proceedings.mlr.press/v202/mansour23a.html)
-* Deep Clustering with Incomplete Noisy Pairwise Annotations: A Geometric Regularization Approach. [[Paper]](https://proceedings.mlr.press/v202/nguyen23d)
-* Delving into Noisy Label Detection with Clean Data. [[Paper]](https://proceedings.mlr.press/v202/yu23b.html)
-* When does Privileged information Explain Away Label Noise? [[Paper]](https://proceedings.mlr.press/v202/ortiz-jimenez23a)
-* Squeeze, Recover and Relabel: Dataset Condensation at ImageNet Scale From A New Perspective. [[Paper]](https://arxiv.org/abs/2306.13092)[[Code]](https://github.com/VILA-Lab/SRe2L)
-* Promises and Pitfalls of Threshold-based Auto-labeling. [[Paper]](https://openreview.net/forum?id=RUCFAKNDb2)
-* Accelerating Exploration with Unlabeled Prior Data. [[Paper]](https://openreview.net/forum?id=Itorzn4Kwf)
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL)  Identifiability of Label Noise Transition Matrix. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://proceedings.mlr.press/v202/liu23g)
+
+* Which is Better for Learning with Noisy Labels: The Semi-supervised Method or Modeling Label Noise? 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://proceedings.mlr.press/v202/yao23a)
+
+* Mitigating Memorization of Noisy Labels by Clipping the Model Prediction. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2212.04055)[[Code]](https://github.com/hongxin001/LogitClip)
+
+* CrossSplit: Mitigating Label Noise Memorization through Data Splitting. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](http://proceedings.mlr.press/v202/kim23a/kim23a.pdf)[[Code]](https://github.com/SAITPublic/CrossSplit)
+
+* Understanding Self-Distillation in the Presence of Label Noise. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](http://proceedings.mlr.press/v202/das23d/das23d.pdf)
+
+* RandomClassificationNoisedoesnotdefeatAllConvexPotentialBoosters IrrespectiveofModelChoice. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://proceedings.mlr.press/v202/mansour23a.html)
+
+* Deep Clustering with Incomplete Noisy Pairwise Annotations: A Geometric Regularization Approach. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://proceedings.mlr.press/v202/nguyen23d)
+
+* Delving into Noisy Label Detection with Clean Data. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://proceedings.mlr.press/v202/yu23b.html)
+
+* When does Privileged information Explain Away Label Noise? 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://proceedings.mlr.press/v202/ortiz-jimenez23a)
+
+* Squeeze, Recover and Relabel: Dataset Condensation at ImageNet Scale From A New Perspective. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2306.13092)[[Code]](https://github.com/VILA-Lab/SRe2L)
+
+* Promises and Pitfalls of Threshold-based Auto-labeling. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=RUCFAKNDb2)
+
+* Accelerating Exploration with Unlabeled Prior Data. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openreview.net/forum?id=Itorzn4Kwf)
   
 -----
 ### CVPR 2023 
-*  Twin Contrastive Learning with Noisy Labels. [[Paper]](https://arxiv.org/abs/2303.06930)[[Code]](https://github.com/Hzzone/TCL)
-*  Exploring High-Quality Pseudo Masks for Weakly Supervised Instance Segmentation. [[Paper]](https://arxiv.org/abs/2210.05174)[[Code]](https://github.com/hustvl/BoxTeacher)
-*  HandsOff: Labeled Dataset Generation with No Additional Human Annotations. [[Paper]](https://arxiv.org/pdf/2212.12645.pdf)[[Code]](https://github.com/austinxu87/handsoff/)
-*  Learning from Noisy Labels with Decoupled Meta Label Purifier. [[Paper]](https://arxiv.org/abs/2302.06810)[[Code]](https://github.com/yuanpengtu/DMLP)
-*  DISC: Learning from Noisy Labels via Dynamic Instance-Specific Selection and Correction. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_DISC_Learning_From_Noisy_Labels_via_Dynamic_Instance-Specific_Selection_and_CVPR_2023_paper.pdf)[[Code]](https://github.com/jackyfl/disc)
-*  Leveraging Inter-Rater Agreement for Classification in the Presence of Noisy Labels. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Bucarelli_Leveraging_Inter-Rater_Agreement_for_Classification_in_the_Presence_of_Noisy_CVPR_2023_paper.pdf)
-*  Fine-Grained Classification with Noisy Labels. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Fine-Grained_Classification_With_Noisy_Labels_CVPR_2023_paper.pdf)
-*  Collaborative Noisy Label Cleaner: Learning Scene-aware Trailers for Multi-modal Highlight Detection in Movies. [[Paper]](https://arxiv.org/abs/2303.14768)[[Code]](https://github.com/TencentYoutuResearch/HighlightDetection-CLC)
-*  MixTeacher: Mining Promising Labels with Mixed Scale Teacher for Semi-supervised Object Detection. [[Paper]](https://arxiv.org/abs/2303.09061)[[Code]](https://github.com/lliuz/MixTeacher)
-*  OT-Filter: An Optimal Transport Filter for Learning With Noisy Labels. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Feng_OT-Filter_An_Optimal_Transport_Filter_for_Learning_With_Noisy_Labels_CVPR_2023_paper.pdf)
-*  Exploiting Completeness and Uncertainty of Pseudo Labels for Weakly Supervised Video Anomaly Detection. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Exploiting_Completeness_and_Uncertainty_of_Pseudo_Labels_for_Weakly_Supervised_CVPR_2023_paper.pdf)[[Code]](https://github.com/ArielZc/CU-Net)
-*  Semi-Supervised 2D Human Pose Estimation Driven by Position Inconsistency Pseudo Label Correction Module. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Semi-Supervised_2D_Human_Pose_Estimation_Driven_by_Position_Inconsistency_Pseudo_CVPR_2023_paper.pdf)[[Code]](https://github.com/hlz0606/SSPCM)
-*  Learning with Noisy labels via Self-supervised Adversarial Noisy Masking. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Tu_Learning_With_Noisy_Labels_via_Self-Supervised_Adversarial_Noisy_Masking_CVPR_2023_paper.pdf)[[Code]](https://github.com/yuanpengtu/SANM)
-*  RONO: Robust Discriminative Learning with Noisy Labels for 2D-3D Cross-Modal Retrieval. [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Feng_RONO_Robust_Discriminative_Learning_With_Noisy_Labels_for_2D-3D_Cross-Modal_CVPR_2023_paper.pdf)[[Code]](https://github.com/penghu-cs/RONO)
+*  Twin Contrastive Learning with Noisy Labels. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2303.06930)[[Code]](https://github.com/Hzzone/TCL)
+
+*  Exploring High-Quality Pseudo Masks for Weakly Supervised Instance Segmentation. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2210.05174)[[Code]](https://github.com/hustvl/BoxTeacher)
+
+*  HandsOff: Labeled Dataset Generation with No Additional Human Annotations. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/pdf/2212.12645.pdf)[[Code]](https://github.com/austinxu87/handsoff/)
+
+*  Learning from Noisy Labels with Decoupled Meta Label Purifier. 
+  ![Meta Learning](https://img.shields.io/badge/Meta%20Learning-EC4899)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2302.06810)[[Code]](https://github.com/yuanpengtu/DMLP)
+
+*  DISC: Learning from Noisy Labels via Dynamic Instance-Specific Selection and Correction. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_DISC_Learning_From_Noisy_Labels_via_Dynamic_Instance-Specific_Selection_and_CVPR_2023_paper.pdf)[[Code]](https://github.com/jackyfl/disc)
+
+*  Leveraging Inter-Rater Agreement for Classification in the Presence of Noisy Labels. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Bucarelli_Leveraging_Inter-Rater_Agreement_for_Classification_in_the_Presence_of_Noisy_CVPR_2023_paper.pdf)
+
+*  Fine-Grained Classification with Noisy Labels. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Fine-Grained_Classification_With_Noisy_Labels_CVPR_2023_paper.pdf)
+
+*  Collaborative Noisy Label Cleaner: Learning Scene-aware Trailers for Multi-modal Highlight Detection in Movies. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2303.14768)[[Code]](https://github.com/TencentYoutuResearch/HighlightDetection-CLC)
+
+*  MixTeacher: Mining Promising Labels with Mixed Scale Teacher for Semi-supervised Object Detection. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2303.09061)[[Code]](https://github.com/lliuz/MixTeacher)
+
+*  OT-Filter: An Optimal Transport Filter for Learning With Noisy Labels. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Feng_OT-Filter_An_Optimal_Transport_Filter_for_Learning_With_Noisy_Labels_CVPR_2023_paper.pdf)
+
+*  Exploiting Completeness and Uncertainty of Pseudo Labels for Weakly Supervised Video Anomaly Detection. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Exploiting_Completeness_and_Uncertainty_of_Pseudo_Labels_for_Weakly_Supervised_CVPR_2023_paper.pdf)[[Code]](https://github.com/ArielZc/CU-Net)
+
+*  Semi-Supervised 2D Human Pose Estimation Driven by Position Inconsistency Pseudo Label Correction Module. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Semi-Supervised_2D_Human_Pose_Estimation_Driven_by_Position_Inconsistency_Pseudo_CVPR_2023_paper.pdf)[[Code]](https://github.com/hlz0606/SSPCM)
+
+*  Learning with Noisy labels via Self-supervised Adversarial Noisy Masking. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Tu_Learning_With_Noisy_Labels_via_Self-Supervised_Adversarial_Noisy_Masking_CVPR_2023_paper.pdf)[[Code]](https://github.com/yuanpengtu/SANM)
+
+*  RONO: Robust Discriminative Learning with Noisy Labels for 2D-3D Cross-Modal Retrieval. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Feng_RONO_Robust_Discriminative_Learning_With_Noisy_Labels_for_2D-3D_Cross-Modal_CVPR_2023_paper.pdf)[[Code]](https://github.com/penghu-cs/RONO)
 
 -----
 ### ICLR 2023 
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL)  Distributionally Robust Post-hoc Classifiers under Prior Shifts. [[Paper]](https://openreview.net/forum?id=3KUfbI9_DQE)[[Code]](https://github.com/weijiaheng/Drops)
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL)  Mitigating Memorization of Noisy Labels via Regularization between Representations. [[Paper \& Code]](https://openreview.net/forum?id=6qcYDVlVLnK)
-*  On the Edge of Benign Overfitting: Label Noise and Overparameterization Level. [[Paper \& Code]](https://openreview.net/forum?id=UrEwJebCxk)
-*  Deep Learning From Crowdsourced Labels: Coupled Cross-Entropy Minimization, Identifiability, and Regularization. [[Paper \& Code]](https://openreview.net/forum?id=_qVhsWyWB9)
-*  CLIPSep: Learning Text-queried Sound Separation with Noisy Unlabeled Videos. [[Paper \& Code]](https://openreview.net/forum?id=H-T3F0dMbyj)
-*  Learning to Segment from Noisy Annotations: A Spatial Correction Approach. [[Paper \& Code]](https://openreview.net/forum?id=Qc_OopMEBnC)
-*  Mutual Partial Label Learning with Competitive Label Noise. [[Paper \& Code]](https://openreview.net/forum?id=EUrxG8IBCrC)
-*  Memorization-Dilation: Modeling Neural Collapse Under Noise. [[Paper \& Code]](https://openreview.net/forum?id=cJWxqmmDL2b)
-*  Leveraging Unlabeled Data to Track Memorization . [[Paper \& Code]](https://openreview.net/forum?id=ORp91sAbzI)
-*  Quantifying and Mitigating the Impact of Label Errors on Model Disparity Metrics. [[Paper \& Code]](https://openreview.net/forum?id=RUzSobdYy0V)
-*  When Source-Free Domain Adaptation Meets Learning with Noisy Labels. [[Paper \& Code]](https://openreview.net/forum?id=u2Pd6x794I)
-*  A law of adversarial risk, interpolation, and label noise. [[Paper \& Code]](https://openreview.net/forum?id=0_TxFpAsEI)
-*  SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning. [[Paper \& Code]](https://openreview.net/forum?id=ymt1zQXBDiF)
-*  CLIPSep: Learning Text-queried Sound Separation with Noisy Unlabeled Videos. [[Paper \& Code]](https://openreview.net/forum?id=H-T3F0dMbyj)
-*  Does Decentralized Learning with Non-IID Unlabeled Data Benefit from Self Supervision?. [[Paper \& Code]](https://openreview.net/forum?id=2L9gzS80tA4)
-*  Label Propagation with Weak Supervision . [[Paper \& Code]](https://openreview.net/forum?id=aCuFa-RRqtI)
-*  Mitigating Dataset Bias by Using Per-Sample Gradient. [[Paper \& Code]](https://openreview.net/forum?id=7mgUec-7GMv)
-*  MCAL: Minimum Cost Human-Machine Active Labeling. [[Paper \& Code]](https://openreview.net/forum?id=1FxRPKrH8bw)
-*  Avoiding spurious correlations via logit correction. [[Paper \& Code]](https://openreview.net/forum?id=5BaqCFVh5qL)
-*  Bitrate-Constrained DRO: Beyond Worst Case Robustness To Unknown Group Shifts . [[Paper \& Code]](https://openreview.net/forum?id=2QzNuaRHn4Z)
-*  Pushing the Accuracy-Group Robustness Frontier with Introspective Self-play. [[Paper \& Code]](https://openreview.net/forum?id=MofT9KEF0kw)
-*  Towards Lightweight, Model-Agnostic and Diversity-Aware Active Anomaly Detection. [[Paper \& Code]](https://openreview.net/forum?id=-vKlt84fHs)
-*  Weakly Supervised Explainable Phrasal Reasoning with Neural Fuzzy Logic. [[Paper \& Code]](https://openreview.net/forum?id=Hu4r-dedqR0)
-*  Towards Addressing Label Skews in One-Shot Federated Learning. [[Paper \& Code]](https://openreview.net/forum?id=rzrqh85f4Sc)
-*  Instance-wise Batch Label Restoration via Gradients in Federated Learning. [[Paper \& Code]](https://openreview.net/forum?id=FIrQfNSOoTr)
-*  That Label's got Style: Handling Label Style Bias for Uncertain Image Segmentation. [[Paper \& Code]](https://openreview.net/forum?id=wZ2SVhOTzBX)
-*  Learning Hyper Label Model for Programmatic Weak Supervision. [[Paper \& Code]](https://openreview.net/forum?id=aCQt_BrkSjC)
-*  Rhino: Deep Causal Temporal Relationship Learning with History-dependent Noise. [[Paper \& Code]](https://openreview.net/forum?id=i_1rbq8yFWC)
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL)  Distributionally Robust Post-hoc Classifiers under Prior Shifts. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=3KUfbI9_DQE)[[Code]](https://github.com/weijiaheng/Drops)
+
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL)  Mitigating Memorization of Noisy Labels via Regularization between Representations. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=6qcYDVlVLnK)
+
+*  On the Edge of Benign Overfitting: Label Noise and Overparameterization Level. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=UrEwJebCxk)
+
+*  Deep Learning From Crowdsourced Labels: Coupled Cross-Entropy Minimization, Identifiability, and Regularization. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=_qVhsWyWB9)
+
+*  CLIPSep: Learning Text-queried Sound Separation with Noisy Unlabeled Videos. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=H-T3F0dMbyj)
+
+*  Learning to Segment from Noisy Annotations: A Spatial Correction Approach. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=Qc_OopMEBnC)
+
+*  Mutual Partial Label Learning with Competitive Label Noise. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=EUrxG8IBCrC)
+
+*  Memorization-Dilation: Modeling Neural Collapse Under Noise. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=cJWxqmmDL2b)
+
+*  Leveraging Unlabeled Data to Track Memorization . 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=ORp91sAbzI)
+
+*  Quantifying and Mitigating the Impact of Label Errors on Model Disparity Metrics. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=RUzSobdYy0V)
+
+*  When Source-Free Domain Adaptation Meets Learning with Noisy Labels. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=u2Pd6x794I)
+
+*  A law of adversarial risk, interpolation, and label noise. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=0_TxFpAsEI)
+
+*  SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=ymt1zQXBDiF)
+
+*  CLIPSep: Learning Text-queried Sound Separation with Noisy Unlabeled Videos. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=H-T3F0dMbyj)
+
+*  Does Decentralized Learning with Non-IID Unlabeled Data Benefit from Self Supervision?. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=2L9gzS80tA4)
+
+*  Label Propagation with Weak Supervision . 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=aCuFa-RRqtI)
+
+*  Mitigating Dataset Bias by Using Per-Sample Gradient. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=7mgUec-7GMv)
+
+*  MCAL: Minimum Cost Human-Machine Active Labeling. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=1FxRPKrH8bw)
+
+*  Avoiding spurious correlations via logit correction. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=5BaqCFVh5qL)
+
+*  Bitrate-Constrained DRO: Beyond Worst Case Robustness To Unknown Group Shifts . 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=2QzNuaRHn4Z)
+
+*  Pushing the Accuracy-Group Robustness Frontier with Introspective Self-play. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper \& Code]](https://openreview.net/forum?id=MofT9KEF0kw)
+
+*  Towards Lightweight, Model-Agnostic and Diversity-Aware Active Anomaly Detection. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=-vKlt84fHs)
+
+*  Weakly Supervised Explainable Phrasal Reasoning with Neural Fuzzy Logic. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=Hu4r-dedqR0)
+
+*  Towards Addressing Label Skews in One-Shot Federated Learning. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=rzrqh85f4Sc)
+
+*  Instance-wise Batch Label Restoration via Gradients in Federated Learning. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=FIrQfNSOoTr)
+
+*  That Label's got Style: Handling Label Style Bias for Uncertain Image Segmentation. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=wZ2SVhOTzBX)
+
+*  Learning Hyper Label Model for Programmatic Weak Supervision. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=aCQt_BrkSjC)
+
+*  Rhino: Deep Causal Temporal Relationship Learning with History-dependent Noise. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper \& Code]](https://openreview.net/forum?id=i_1rbq8yFWC)
 
 
 ## Papers & Code in 2022
 
 -----
 ### NeurIPS 2022 
-* Estimating Noise Transition Matrix with Label Correlations for Noisy Multi-Label Learning . [[Paper]](https://openreview.net/forum?id=GwXrGy_vc8m)[[Code]](https://github.com/ShikunLi/Estimating_T_For_Noisy_Mutli-Labels)
-* Learning from Label Proportions by Learning with Label Noise. [[Paper & Code]](https://openreview.net/forum?id=cqyBfRwOTm1)
-* Class-Dependent Label-Noise Learning with Cycle-Consistency Regularization. [[Paper & Code]](https://openreview.net/forum?id=IvnoGKQuXi)
-* On Image Segmentation With Noisy Labels: Characterization and Volume Properties of the Optimal Solutions to Accuracy and Dice. [[Paper & Code]](https://openreview.net/forum?id=WDS1M0gsfXk)
-* Robustness to Label Noise Depends on the Shape of the Noise Distribution. [[Paper & Code]](https://openreview.net/forum?id=AlpR6dzKjfy)
-* Label Noise in Adversarial Training: A Novel Perspective to Study Robust Overfitting. [[Paper & Code]](https://openreview.net/forum?id=9_O9mTLYJQp)
-* SoftPatch: Unsupervised Anomaly Detection with Noisy Data. [[Paper & Code]](https://openreview.net/forum?id=pIYYJflkhZ)
+* Estimating Noise Transition Matrix with Label Correlations for Noisy Multi-Label Learning . 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=GwXrGy_vc8m)[[Code]](https://github.com/ShikunLi/Estimating_T_For_Noisy_Mutli-Labels)
+
+* Learning from Label Proportions by Learning with Label Noise. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper & Code]](https://openreview.net/forum?id=cqyBfRwOTm1)
+
+* Class-Dependent Label-Noise Learning with Cycle-Consistency Regularization. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper & Code]](https://openreview.net/forum?id=IvnoGKQuXi)
+
+* On Image Segmentation With Noisy Labels: Characterization and Volume Properties of the Optimal Solutions to Accuracy and Dice. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper & Code]](https://openreview.net/forum?id=WDS1M0gsfXk)
+
+* Robustness to Label Noise Depends on the Shape of the Noise Distribution. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper & Code]](https://openreview.net/forum?id=AlpR6dzKjfy)
+
+* Label Noise in Adversarial Training: A Novel Perspective to Study Robust Overfitting. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper & Code]](https://openreview.net/forum?id=9_O9mTLYJQp)
+
+* SoftPatch: Unsupervised Anomaly Detection with Noisy Data. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper & Code]](https://openreview.net/forum?id=pIYYJflkhZ)
 
 -----
 ### ECCV 2022 
-* Neighborhood Collective Estimation for Noisy Label Identification and Correction. [[Paper]](https://arxiv.org/abs/2208.03207)[[Code]](https://github.com/lijichang/LNL-NCE)
-* Teaching with Soft Label Smoothing for Mitigating Noisy Labels in Facial Expressions. [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136720639.pdf)[[Code]](https://github.com/toharl/soft)
-* Learning from Multiple Annotator Noisy Labels via Sample-wise Label Fusion. [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840402.pdf)[[Code]](https://github.com/zhengqigao/Learning-from-Multiple-Annotator-Noisy-Labels)
-* Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition. [[Paper]](https://arxiv.org/abs/2207.10299)[[Code]](https://github.com/zyh-uaiaaaa/Erasing-Attention-Consistency)
-* Centrality and Consistency: Two-Stage Clean Samples Identification for Learning with Instance-Dependent Noisy Labels. [[Paper]](https://arxiv.org/abs/2207.14476)[[Code]](https://github.com/uitrbn/TSCSI_IDN)
-* Learning with Noisy Labels by Efficient Transition Matrix Estimation to Combat Label Miscorrection. [[Paper]](https://arxiv.org/abs/2111.14932)[[Code]](https://github.com/hyperconnect/FasTEN)
-* Identifying Hard Noise in Long-Tailed Sample Distribution. [[Paper]](https://arxiv.org/abs/2207.13378)[[Code]](https://github.com/yxymessi/H2E-Framework)
-* Self-Filtering: A Noise-Aware Sample Selection for Label Noise with Confidence Penalization. [[Paper]](https://arxiv.org/abs/2208.11351)
-* BoundaryFace: A mining framework with noise label self-correction for Face Recognition. [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136730092.pdf)[[Code]](https://gitee.com/swjtugx/classmate/tree/master/OurGroup/BoundaryFace)
-* Embedding contrastive unsupervised features to cluster in- and out-of-distribution noise in corrupted image datasets. [[Paper]](https://arxiv.org/abs/2207.01573)[[Code]](https://github.com/PaulAlbert31/SNCF)
-* WeLSA: Learning To Predict 6D Pose From Weakly Labeled Data Using Shape Alignment. [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680633.pdf)
-* Joint-Modal Label Denoising for Weakly-Supervised Audio-Visual Video Parsing. [[Paper]](https://arxiv.org/abs/2204.11573)[[Code]](https://github.com/MCG-NJU/JoMoLD)
-* PseCo: Pseudo Labeling and Consistency Training for Semi-Supervised Object Detection. [[Paper]](https://arxiv.org/abs/2203.16317)[[Code]](https://github.com/ligang-cs/PseCo)
-* Active label correction using robust parameter update and entropy propagation. [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136810001.pdf)
-* A data-centric approach for improving ambiguous labels with combined semi-supervised classification and clustering. [[Paper]](https://arxiv.org/abs/2106.16209)[[Code]](https://github.com/Emprime/dc3)
+* Neighborhood Collective Estimation for Noisy Label Identification and Correction. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2208.03207)[[Code]](https://github.com/lijichang/LNL-NCE)
+
+* Teaching with Soft Label Smoothing for Mitigating Noisy Labels in Facial Expressions. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136720639.pdf)[[Code]](https://github.com/toharl/soft)
+
+* Learning from Multiple Annotator Noisy Labels via Sample-wise Label Fusion. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840402.pdf)[[Code]](https://github.com/zhengqigao/Learning-from-Multiple-Annotator-Noisy-Labels)
+
+* Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2207.10299)[[Code]](https://github.com/zyh-uaiaaaa/Erasing-Attention-Consistency)
+
+* Centrality and Consistency: Two-Stage Clean Samples Identification for Learning with Instance-Dependent Noisy Labels. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2207.14476)[[Code]](https://github.com/uitrbn/TSCSI_IDN)
+
+* Learning with Noisy Labels by Efficient Transition Matrix Estimation to Combat Label Miscorrection. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2111.14932)[[Code]](https://github.com/hyperconnect/FasTEN)
+
+* Identifying Hard Noise in Long-Tailed Sample Distribution. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2207.13378)[[Code]](https://github.com/yxymessi/H2E-Framework)
+
+* Self-Filtering: A Noise-Aware Sample Selection for Label Noise with Confidence Penalization. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2208.11351)
+
+* BoundaryFace: A mining framework with noise label self-correction for Face Recognition. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136730092.pdf)[[Code]](https://gitee.com/swjtugx/classmate/tree/master/OurGroup/BoundaryFace)
+
+* Embedding contrastive unsupervised features to cluster in- and out-of-distribution noise in corrupted image datasets. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2207.01573)[[Code]](https://github.com/PaulAlbert31/SNCF)
+
+* WeLSA: Learning To Predict 6D Pose From Weakly Labeled Data Using Shape Alignment. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680633.pdf)
+
+* Joint-Modal Label Denoising for Weakly-Supervised Audio-Visual Video Parsing. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2204.11573)[[Code]](https://github.com/MCG-NJU/JoMoLD)
+
+* PseCo: Pseudo Labeling and Consistency Training for Semi-Supervised Object Detection. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2203.16317)[[Code]](https://github.com/ligang-cs/PseCo)
+
+* Active label correction using robust parameter update and entropy propagation. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136810001.pdf)
+
+* A data-centric approach for improving ambiguous labels with combined semi-supervised classification and clustering. 
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2106.16209)[[Code]](https://github.com/Emprime/dc3)
 
 -----
 ### ICML 2022 
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) To Smooth or Not? When Label Smoothing Meets Noisy Labels. [[Paper]](https://arxiv.org/abs/2106.04149)[[Code]](https://github.com/UCSC-REAL/negative-label-smoothing)
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) Detecting Corrupted Labels Without Training a Model to Predict. [[Paper]](https://arxiv.org/abs/2110.06283)[[Code]](https://github.com/UCSC-REAL/SimiFeat)
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) Beyond Images: Label Noise Transition Matrix Estimation for Tasks with Lower-Quality Features. [[Paper]](https://arxiv.org/abs/2202.01273)
-* From Noisy Prediction to True Label: Noisy Prediction Calibration via Generative Model [[Paper]](https://arxiv.org/abs/2205.00690)[[Code]](https://github.com/BaeHeeSun/NPC)
-* Robust Training under Label Noise by Over-parameterization. [[Paper]](https://arxiv.org/abs/2202.14026)[[Code]](https://github.com/shengliu66/SOP)
-* Estimating Instance-dependent Label-noise Transition Matrix using DNNs. [[Paper]](https://arxiv.org/abs/2105.13001)
-* Transfer and Marginalize: Explaining Away Label Noise with Privileged Information. [[Paper]](https://arxiv.org/abs/2202.09244)
-* Guaranteed Robust Deep Learning against Extreme Label Noise using Self-supervised Learning.
-* Robust Meta-learning with Sampling Noise and Label Noise via Eigen-Reptile. [[Paper]](https://arxiv.org/pdf/2206.01944v1.pdf)[[Code]](https://github.com/anfeather/eigen-reptile)
-* Learning General Halfspaces with Adversarial Label Noise via Online Gradient Descent. [[Paper]](https://proceedings.mlr.press/v162/diakonikolas22b.html)
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) To Smooth or Not? When Label Smoothing Meets Noisy Labels. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2106.04149)[[Code]](https://github.com/UCSC-REAL/negative-label-smoothing)
+
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) Detecting Corrupted Labels Without Training a Model to Predict. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2110.06283)[[Code]](https://github.com/UCSC-REAL/SimiFeat)
+
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) Beyond Images: Label Noise Transition Matrix Estimation for Tasks with Lower-Quality Features. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2202.01273)
+
+* From Noisy Prediction to True Label: Noisy Prediction Calibration via Generative Model 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2205.00690)[[Code]](https://github.com/BaeHeeSun/NPC)
+
+* Robust Training under Label Noise by Over-parameterization. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.14026)[[Code]](https://github.com/shengliu66/SOP)
+
+* Estimating Instance-dependent Label-noise Transition Matrix using DNNs. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2105.13001)
+
+* Transfer and Marginalize: Explaining Away Label Noise with Privileged Information. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.09244)
+
 * Guaranteed Robust Deep Learning against Extreme Label Noise using Self-supervised Learning.  
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+
+* Robust Meta-learning with Sampling Noise and Label Noise via Eigen-Reptile. 
+  ![Meta Learning](https://img.shields.io/badge/Meta%20Learning-EC4899)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/pdf/2206.01944v1.pdf)[[Code]](https://github.com/anfeather/eigen-reptile)
+
+* Learning General Halfspaces with Adversarial Label Noise via Online Gradient Descent. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://proceedings.mlr.press/v162/diakonikolas22b.html)
+
+* Guaranteed Robust Deep Learning against Extreme Label Noise using Self-supervised Learning.  
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
 
 -----
 ### CVPR 2022
-* Selective-Supervised Contrastive Learning with Noisy Labels. [[Paper]](https://arxiv.org/abs/2203.04181)[[Code]](https://github.com/ShikunLi/Sel-CL)
-* Scalable Penalized Regression for Noise Detection in Learning with Noisy Labels. [[Paper]](https://arxiv.org/abs/2203.07788)[[Code]](https://github.com/Yikai-Wang/SPR-LNL)
-* Large-Scale Pre-training for Person Re-identification with Noisy Labels. [[Paper]](http://arxiv.org/pdf/2203.16533)[[Code]](https://github.com/dengpanfu/luperson-nl)
-* Adaptive Early-Learning Correction for Segmentation from Noisy Annotations. [[Paper]](https://arxiv.org/abs/2110.03740)[[Code]](https://github.com/Kangningthu/ADELE)
+* Selective-Supervised Contrastive Learning with Noisy Labels. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2203.04181)[[Code]](https://github.com/ShikunLi/Sel-CL)
+
+* Scalable Penalized Regression for Noise Detection in Learning with Noisy Labels. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2203.07788)[[Code]](https://github.com/Yikai-Wang/SPR-LNL)
+
+* Large-Scale Pre-training for Person Re-identification with Noisy Labels. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](http://arxiv.org/pdf/2203.16533)[[Code]](https://github.com/dengpanfu/luperson-nl)
+
+* Adaptive Early-Learning Correction for Segmentation from Noisy Annotations. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2110.03740)[[Code]](https://github.com/Kangningthu/ADELE)
 
 -----
 ### ICLR 2022
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) Learning with Noisy Labels Revisited: A Study Using Real-World Human Annotations. [[Paper]](https://openreview.net/forum?id=TBWA6PLJZQm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2022%2FConference%2FAuthors%23your-submissions))[[Code]](https://github.com/zwzhu-d/cifar-10-100n)
-* Resolving Training Biases via Influence-based Data Relabeling. [[Paper and Code]](https://openreview.net/forum?id=EskfH0bwNVn)
-* Contrastive Label Disambiguation for Partial Label Learning. [[Paper and Code]](https://openreview.net/forum?id=EhYjZy6e1gJ)
-* Sample Selection with Uncertainty of Losses for Learning with Noisy Labels. [[Paper and Code]](https://openreview.net/forum?id=xENf4QUL4LW)
-* An Information Fusion Approach to Learning with Instance-Dependent Label Noise. [[Paper and Code]](https://openreview.net/forum?id=ecH2FKaARUp)
-* Meta Discovery: Learning to Discover Novel Classes given Very Limited Data. [[Paper and Code]](https://openreview.net/forum?id=MEpKGLsY8f)
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) Learning with Noisy Labels Revisited: A Study Using Real-World Human Annotations. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openreview.net/forum?id=TBWA6PLJZQm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2022%2FConference%2FAuthors%23your-submissions))[[Code]](https://github.com/zwzhu-d/cifar-10-100n)
 
------
-### AISTATS 2022
-* Robustness and reliability when training with noisy labels. [[Paper]](https://arxiv.org/abs/2110.03321#:~:text=We%20find%20that%20strictly%20proper,is%20an%20issue%20in%20practice.)
-* A Spectral Perspective of DNN Robustness to Label Noise.
-* Hardness of Learning a Single Neuron with Adversarial Label Noise.
-* Learning from Multiple Noisy Partial Labelers. [[Paper]](https://arxiv.org/abs/2106.04530)
+* Resolving Training Biases via Influence-based Data Relabeling. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper and Code]](https://openreview.net/forum?id=EskfH0bwNVn)
 
------
-### Other Conferences 2022
+* Contrastive Label Disambiguation for Partial Label Learning. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper and Code]](https://openreview.net/forum?id=EhYjZy6e1gJ)
+
+* Sample Selection with Uncertainty of Losses for Learning with Noisy Labels. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper and Code]](https://openreview.net/forum?id=xENf4QUL4LW)
+
+* An Information Fusion Approach to Learning with Instance-Dependent Label Noise. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper and Code]](https://openreview.net/forum?id=ecH2FKaARUp)
+
+* Meta Discovery: Learning to Discover Novel Classes given Very Limited Data. 
+  ![Meta Learning](https://img.shields.io/badge/Meta%20Learning-EC4899)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper and Code]](https://openreview.net/forum?id=MEpKGLsY8f)
+
 
 -----
 ### ArXiv 2022
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) To Aggregate or Not? Learning with Separate Noisy Labels. [[Paper]](https://arxiv.org/abs/2206.07181)
-* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) Identifiability of Label Noise Transition Matrix. [[Paper]](https://arxiv.org/abs/2202.02016)
-* Constrained Instance and Class Reweighting for Robust Learning under Label Noise. [[Paper]](https://arxiv.org/abs/2111.05428)
-* AUGLOSS: A Learning Methodology for Real-World Dataset Corruption. [[Paper]](https://arxiv.org/pdf/2206.02286.pdf)
-* Do We Need to Penalize Variance of Losses for Learning with Label Noise?. [[Paper]](https://arxiv.org/abs/2201.12739)
-* Robust Training under Label Noise by Over-parameterization. [[Paper]](https://arxiv.org/abs/2202.14026)[[Code]](https://github.com/shengliu66/SOP)
-* On Learning Contrastive Representations for Learning with Noisy Labels. [[Paper]](https://arxiv.org/abs/2203.01785)
-* Learning from Label Proportions by Learning with Label Noise. [[Paper]](https://arxiv.org/abs/2203.02496)
-* Benign Overfitting without Linearity: Neural Network Classifiers Trained by Gradient Descent for Noisy Linear Data. [[Paper]](https://arxiv.org/abs/2202.05928#:~:text=11%20Feb%202022%5D-,Benign%20Overfitting%20without%20Linearity%3A%20Neural%20Network%20Classifiers%20Trained%20by,Descent%20for%20Noisy%20Linear%20Data&text=Abstract%3A%20Benign%20overfitting%2C%20the%20phenomenon,models%20trained%20with%20gradient%20descent.)
-* Synergistic Network Learning and Label Correction for Noise-robust Image Classification. [[Paper]](https://arxiv.org/abs/2202.13472)
-* Transfer and Marginalize: Explaining Away Label Noise with Privileged Information. [[Paper]](https://arxiv.org/abs/2202.09244)
-* Convolutional Network Fabric Pruning With Label Noise. [[Paper]](https://arxiv.org/abs/2202.07268)
-* Learning to Bootstrap for Combating Label Noise. [[Paper]](https://arxiv.org/abs/2202.04291)
-* Learning with Neighbor Consistency for Noisy Labels. [[Paper]](https://arxiv.org/abs/2202.02200)
-* Investigating Why Contrastive Learning Benefits Robustness Against Label Noise. [[Paper]](https://arxiv.org/abs/2201.12498)
-* PARS: Pseudo-Label Aware Robust Sample Selection for Learning with Noisy Labels. [[Paper]](https://arxiv.org/abs/2201.10836)
-* GMM Discriminant Analysis with Noisy Label for Each Class. [[Paper]](https://arxiv.org/abs/2201.10242)
-* Learning with Label Noise for Image Retrieval by Selecting Interactions. [[Paper]](https://arxiv.org/abs/2112.10453)
-* Two Wrongs Don't Make a Right: Combating Confirmation Bias in Learning with Label Noise. [[Paper]](https://arxiv.org/abs/2112.02960)
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) To Aggregate or Not? Learning with Separate Noisy Labels. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2206.07181)
+
+* [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL) Identifiability of Label Noise Transition Matrix. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.02016)
+
+* Constrained Instance and Class Reweighting for Robust Learning under Label Noise. 
+  ![Reweighting](https://img.shields.io/badge/Reweighting-22C55E)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2111.05428)
+
+* AUGLOSS: A Learning Methodology for Real-World Dataset Corruption. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/pdf/2206.02286.pdf)
+
+* Do We Need to Penalize Variance of Losses for Learning with Label Noise?. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2201.12739)
+
+* Robust Training under Label Noise by Over-parameterization. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.14026)[[Code]](https://github.com/shengliu66/SOP)
+
+* On Learning Contrastive Representations for Learning with Noisy Labels. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2203.01785)
+
+* Learning from Label Proportions by Learning with Label Noise. 
+  ![Weak Supervision](https://img.shields.io/badge/Weak%20Supervision-0EA5E9)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2203.02496)
+
+* Benign Overfitting without Linearity: Neural Network Classifiers Trained by Gradient Descent for Noisy Linear Data. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.05928#:~:text=11%20Feb%202022%5D-,Benign%20Overfitting%20without%20Linearity%3A%20Neural%20Network%20Classifiers%20Trained%20by,Descent%20for%20Noisy%20Linear%20Data&text=Abstract%3A%20Benign%20overfitting%2C%20the%20phenomenon,models%20trained%20with%20gradient%20descent.)
+
+* Synergistic Network Learning and Label Correction for Noise-robust Image Classification. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.13472)
+
+* Transfer and Marginalize: Explaining Away Label Noise with Privileged Information. 
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.09244)
+
+* Convolutional Network Fabric Pruning With Label Noise. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.07268)
+
+* Learning to Bootstrap for Combating Label Noise. 
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.04291)
+
+* Learning with Neighbor Consistency for Noisy Labels. 
+  ![Semi-supervised](https://img.shields.io/badge/Semi--supervised-10B981)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2202.02200)
+
+* Investigating Why Contrastive Learning Benefits Robustness Against Label Noise. 
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2201.12498)
+
+* PARS: Pseudo-Label Aware Robust Sample Selection for Learning with Noisy Labels. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2201.10836)
+
+* GMM Discriminant Analysis with Noisy Label for Each Class. 
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2201.10242)
+
+* Learning with Label Noise for Image Retrieval by Selecting Interactions. 
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://arxiv.org/abs/2112.10453)
+
+* Two Wrongs Don't Make a Right: Combating Confirmation Bias in Learning with Label Noise. 
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://arxiv.org/abs/2112.02960)
 
 -----
 
