@@ -26,10 +26,6 @@
 **Docta-AI:** 
 An advanced data-centric AI platform that detects and rectifies issues in any data format (i.e., label error detection). [[Website]](https://github.com/Docta-ai/docta)
 
-## Competition
-
-**A Hands-on Tutorial for Learning with Noisy Labels** (IJCAI 2022)[[website]](http://competition.noisylabels.com/)
-
 ## Tutorial
 
 **1st Learning and Mining with Noisy Labels Challenge** (IJCAI 2023)[[Website]](https://sites.google.com/ucsc.edu/tutorial-noisylabels/home)[[GitHub]](https://github.com/Docta-ai/IJCAI-tutorial)
