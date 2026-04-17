@@ -1,8 +1,6 @@
 # Learning-with-Noisy-Labels
 
-    A curated list of most recent papers & codes in Learning with Noisy Labels
-    
-    Some recent works about group-distributional robustness, label distribution shifts, are also included.
+    A curated list of most recent papers & codes in Learning with Noisy Labels.
 
 ---
 
