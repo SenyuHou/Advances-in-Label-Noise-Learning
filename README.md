@@ -6,6 +6,22 @@
 
 ---
 
+## Tag Legend
+
+### Main Technique
+![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
+![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+![Theory](https://img.shields.io/badge/Theory-6B7280)
+
+### Task Type
+![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+
 ## Public Software
 **Docta-AI:** 
 An advanced data-centric AI platform that detects and rectifies issues in any data format (i.e., label error detection). [[Website]](https://github.com/Docta-ai/docta)
