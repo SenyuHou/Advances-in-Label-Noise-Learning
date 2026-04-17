@@ -22,16 +22,16 @@
 ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
 ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
 
-## Public Software
+## 🧰 Public Software
 **Docta-AI:** 
 An advanced data-centric AI platform that detects and rectifies issues in any data format (i.e., label error detection). [[Website]](https://github.com/Docta-ai/docta)
 
-## Tutorial
+## 🎓 Tutorial
 
 **1st Learning and Mining with Noisy Labels Challenge** (IJCAI 2023)[[Website]](https://sites.google.com/ucsc.edu/tutorial-noisylabels/home)[[GitHub]](https://github.com/Docta-ai/IJCAI-tutorial)
 
-## Content
-  - [Benchmarks & Leaderboard](#benchmarks--leaderboard)
+## 📦 Content
+  - [Benchmarks](#benchmarks)
   - [Papers & Code in 2024](#papers--code-in-2024)
     - [NeurIPS 2024](#NeurIPS-2024)
     - [ICML 2024](#ICML-2024)
@@ -72,7 +72,7 @@ An advanced data-centric AI platform that detects and rectifies issues in any da
     - [ArXiv 2020](#ArXiv-2020)
 ---
 
-## Benchmarks & Leaderboard
+## 📊 Benchmarks
 Real-world noisy-label bechmarks:
 
 Dataset | Noise Rate | Website | Paper
@@ -85,25 +85,31 @@ Animal-10N | ~8% (real-world noise) | [[Website]](https://dm.kaist.ac.kr/dataset
 Food-101N | ~20% (human label noise) | [[Website]](https://github.com/kuanghuei/clean-net)  | [[Paper]](https://arxiv.org/pdf/1711.07131.pdf)
 Clothing1M  | ~38% (real-world noise) | [[Website]](https://github.com/Cysu/noisy_label)  | [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Xiao_Learning_From_Massive_2015_CVPR_paper.pdf)
  
- Simulation of label noise:
- 
- IDN:
+## 🔧 Simulation of Label Noise
 
- Part-dependent Label Noise: Towards Instance-dependent Label Noise. [[Paper]](https://arxiv.org/abs/2006.07836)[[Code]](https://github.com/xiaoboxia/Part-dependent-label-noise)
+### 🧩 Instance-Dependent Noise (IDN)
 
- Beyond Class-Conditional Assumption: A Primary Attempt to Combat Instance-Dependent Label Noise. [[Paper]](https://arxiv.org/abs/2012.05458) [[Code]](https://github.com/chenpf1025/IDN)
- 
- An Instance-Dependent Simulation Framework for Learning with Label Noise. [[Paper]](https://arxiv.org/abs/2107.11413)
+- **Part-dependent Label Noise: Towards Instance-dependent Label Noise**  
+  [[Paper]](https://arxiv.org/abs/2006.07836) [[Code]](https://github.com/xiaoboxia/Part-dependent-label-noise)
 
- 
- 
- PMD:
- 
- Learning with Feature-Dependent Label Noise: A Progressive Approach. [[Paper]](https://openreview.net/pdf?id=ZPa2SyGcbwh)[[Code]](https://github.com/pxiangwu/PLC)
+- **Beyond Class-Conditional Assumption: A Primary Attempt to Combat Instance-Dependent Label Noise**  
+  [[Paper]](https://arxiv.org/abs/2012.05458) [[Code]](https://github.com/chenpf1025/IDN)
+
+- **An Instance-Dependent Simulation Framework for Learning with Label Noise**  
+  [[Paper]](https://arxiv.org/abs/2107.11413)
 
 
+---
 
-This repo focus on papers after 2019, for previous works, please refer to [[Website]](https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise).
+### 🔀 Polynomial Margin Diminishing Noise (PMD)
+
+- **Learning with Feature-Dependent Label Noise: A Progressive Approach**  
+  [[Paper]](https://openreview.net/pdf?id=ZPa2SyGcbwh) [[Code]](https://github.com/pxiangwu/PLC)
+
+
+---
+
+> <span style="color:#EF4444"><strong>Note:</strong> This repository mainly focuses on papers published after 2019. For earlier works, please refer to [[this curated list]](https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise).</span>
 
 ## Papers & Code in 2024
 
