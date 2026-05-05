@@ -48,7 +48,12 @@ An advanced data-centric AI platform that detects and rectifies issues in any da
   - [Papers & Code in 2024](#papers--code-in-2024)
     - [NeurIPS 2024](#NeurIPS-2024)
     - [ICML 2024](#ICML-2024)
+    - [CVPR 2024](#CVPR-2024)
     - [ICLR 2024](#ICLR-2024)
+    - [KDD 2024](#KDD-2024)
+    - [ACM MM 2024](#ACM-MM-2024)
+    - [AAAI 2024](#AAAI-2024)
+    - [Top Journals 2024](#Top-Journals-2024)
   - [Papers & Code in 2023](#papers--code-in-2023)
     - [ICCV 2023](#ICCV-2023)
     - [KDD 2023](#KDD-2023)
@@ -56,17 +61,26 @@ An advanced data-centric AI platform that detects and rectifies issues in any da
     - [ICML 2023](#ICML-2023)
     - [CVPR 2023](#CVPR-2023)
     - [ICLR 2023](#ICLR-2023)
+    - [AAAI 2023](#AAAI-2023)
+    - [ACM MM 2023](#ACM-MM-2023)
+    - [Top Journals 2023](#Top-Journals-2023)
   - [Papers & Code in 2022](#papers--code-in-2022)
     - [NeurIPS 2022](#NeurIPS-2022)
     - [ECCV 2022](#ECCV-2022)
     - [ICML 2022](#ICML-2022)
     - [CVPR 2022](#CVPR-2022)
     - [ICLR 2022](#ICLR-2022)
+    - [AAAI 2022](#AAAI-2022)
+    - [KDD 2022](#KDD-2022)
+    - [ACM MM 2022](#ACM-MM-2022)
+    - [Top Journals 2022](#Top-Journals-2022)
     - [AISTATS 2022](#AISTATS-2022)
     - [Other Conferences 2022](#Other-Conferences-2022)
     - [ArXiv 2022](#ArXiv-2022)
   - [Papers & Code in 2021](#papers--code-in-2021)
     - [NeurIPS 2021](#NeurIPS-2021)
+    - [KDD 2021](#KDD-2021)
+    - [ACM MM 2021](#ACM-MM-2021)
     - [IJCAI 2021](#IJCAI-2021)
     - [ICML 2021](#ICML-2021)
     - [ICLR 2021](#ICLR-2021)
@@ -79,6 +93,7 @@ An advanced data-centric AI platform that detects and rectifies issues in any da
     - [ICML 2020](#ICML-2020)
     - [ICLR 2020](#ICLR-2020)
     - [Nips 2020](#Nips-2020)
+    - [KDD 2020](#KDD-2020)
     - [AAAI 2020](#AAAI-2020)
     - [CVPR 2020](#CVPR-2020)
     - [ECCV 2020](#ECCV-2020)
@@ -581,6 +596,28 @@ Clothing1M  | ~38% (real-world noise) | [[Website]](https://github.com/Cysu/nois
   [[Paper]](https://proceedings.mlr.press/v235/wu24g.html)
 
 -----
+### CVPR 2024
+* Estimating Noisy Class Posterior with Part-level Labels for Noisy Label Learning.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Estimating_Noisy_Class_Posterior_with_Part-level_Labels_for_Noisy_Label_Learning_CVPR_2024_paper.html)
+
+* Learning with Structural Labels for Learning with Noisy Labels.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Learning_with_Structural_Labels_for_Learning_with_Noisy_Labels_CVPR_2024_paper.html)
+
+* Learning Discriminative Dynamics with Label Corruption for Noisy Label Detection.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Learning_Discriminative_Dynamics_with_Label_Corruption_for_Noisy_Label_Detection_CVPR_2024_paper.html)
+
+* A Noisy Elephant in the Room: Is Your Out-of-Distribution Detector Robust to Label Noise?
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Lee_A_Noisy_Elephant_in_the_Room_Is_Your_Out-of-Distribution_Detector_Robust_CVPR_2024_paper.html)
+
+-----
 ### ICLR 2024 
 * Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks. 
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
@@ -626,6 +663,69 @@ Clothing1M  | ~38% (real-world noise) | [[Website]](https://github.com/Cysu/nois
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
   [[Paper]](https://openreview.net/forum?id=WOiOzHG2zD)
+
+-----
+### KDD 2024
+* Divide and Denoise: Learning from Noisy Labels in Fine-Grained Entity Typing with Cluster-Wise Loss Correction.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1145/3637528.3671834)
+
+-----
+### ACM MM 2024
+* CLIPCleaner: Cleaning Noisy Labels with CLIP.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1145/3664647.3681521)
+
+* Enhancing Robustness in Learning with Noisy Labels: An Asymmetric Co-Training Approach.
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1145/3664647.3680924)
+
+* Mitigate Catastrophic Remembering via Continual Knowledge Purification for Noisy Label Learning.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1145/3664647.3680975)
+
+-----
+### AAAI 2024
+* FedDiv: Collaborative Noise Filtering for Federated Learning with Noisy Labels.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1609/aaai.v38i4.28153)
+
+* Learning with Noisy Labels via Hashing Mutual Information Waiting.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1609/aaai.v38i16.29578)
+
+* Unlocking the Power of Open Set: A New Perspective for Open-Set Noisy Label Learning.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1609/aaai.v38i14.29377)
+
+* [[**Sxu**]](https://github.com/SenyuHou) Which Is More Effective in Label Noise Cleaning, Correction or Filtering?
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1609/aaai.v38i11.29183)
+
+-----
+### Top Journals 2024
+* Tackling Noisy Labels with Network Parameter Additive Decomposition. (Published on TPAMI)
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1109/TPAMI.2024.3367129)
+
+* A Time-Consistency Curriculum for Learning from Instance-Dependent Noisy Labels. (Published on TPAMI)
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1109/TPAMI.2024.3433918)
+
+* BadLabel: A Robust Perspective on Evaluating and Enhancing Label-noise Learning. (Published on TPAMI)
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1109/TPAMI.2024.3439233)
 
 ## Papers & Code in 2023
 
@@ -1132,6 +1232,56 @@ Clothing1M  | ~38% (real-world noise) | [[Website]](https://github.com/Cysu/nois
   ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
   [[Paper \& Code]](https://openreview.net/forum?id=i_1rbq8yFWC)
 
+-----
+### AAAI 2023
+* Class-Independent Regularization for Learning with Noisy Labels.
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1609/aaai.v37i6.25890)
+
+-----
+### ACM MM 2023
+* PNT-Edge: Towards Robust Edge Detection with Noisy Labels.
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1145/3581783.3612412)
+
+* Adaptive Contrastive Learning on Multimodal Transformer for Review Helpfulness Predictions with Multimodal Noisy Labels.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1145/3581783.3612405)
+
+* ALEX: Towards Effective Graph Transfer Learning with Noisy Labels.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1145/3581783.3611891)
+
+-----
+### Top Journals 2023
+* A Parametrical Model for Instance-Dependent Label Noise. (Published on TPAMI)
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1109/TPAMI.2023.3301876)
+
+* Noisy Label Learning With Provable Consistency for a Wider Family of Losses. (Published on TPAMI)
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1109/TPAMI.2023.3296156)
+
+* Regularly Truncated M-Estimators for Learning With Noisy Labels. (Published on TPAMI)
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1109/TPAMI.2023.3347850)
+
+* Robust Point Cloud Segmentation With Noisy Annotations. (Published on TPAMI)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1109/TPAMI.2023.3233772)
+
+* Learning to Learn From Noisy Labeled Data. (Published on TKDE)
+  ![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1109/TKDE.2023.3271677)
 
 ## Papers & Code in 2022
 
@@ -1358,6 +1508,48 @@ Clothing1M  | ~38% (real-world noise) | [[Website]](https://github.com/Cysu/nois
   ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
   [[Paper and Code]](https://openreview.net/forum?id=MEpKGLsY8f)
 
+-----
+### AAAI 2022
+* Noise-Robust Learning from Multiple Unsupervised Sources of Inferred Labels.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/20367)
+
+* Deep Neural Networks Learn Meta-Structures from Noisy Labels in Semantic Segmentation.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/20194)
+
+-----
+### KDD 2022
+* Communication-Efficient Robust Federated Learning with Noisy Labels.
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1145/3534678.3539252)
+
+* Adaptive Learning for Weakly Labeled Streams.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1145/3534678.3539334)
+
+-----
+### ACM MM 2022
+* Early-Learning Regularized Contrastive Learning for Cross-Modal Retrieval with Noisy Labels.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1145/3503161.3547809)
+
+-----
+### Top Journals 2022
+* Wasserstein Adversarial Regularization for Learning with Label Noise. (Published on TPAMI)
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1109/TPAMI.2022.3156685)
+
+* Extended T: Learning With Mixed Closed-Set and Open-Set Noisy Labels. (Published on TPAMI)
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1109/TPAMI.2022.3180545)
 
 -----
 ### ArXiv 2022
@@ -1520,6 +1712,25 @@ Clothing1M  | ~38% (real-world noise) | [[Website]](https://github.com/Cysu/nois
   ![Active Learning](https://img.shields.io/badge/Active%20Learning-6366F1)
   ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
   [[Paper]](https://openreview.net/forum?id=Ruw3MHL9jAO)
+
+-----
+### KDD 2021
+* NRGNN: Learning a Label Noise Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Cross-domain LNL](https://img.shields.io/badge/Cross--domain%20LNL-4B5563)
+  [[Paper]](https://doi.org/10.1145/3447548.3467364)
+
+* Robust Learning by Self-Transition for Handling Noisy Labels.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1145/3447548.3467222)
+
+-----
+### ACM MM 2021
+* Co-learning: Learning from Noisy Labels with Self-supervision.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1145/3474085.3475622)
 
 -----
 
@@ -2392,6 +2603,14 @@ Clothing1M  | ~38% (real-world noise) | [[Website]](https://github.com/Cysu/nois
   ![PU Learning](https://img.shields.io/badge/PU%20Learning-6366F1)
   ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
   [[Paper]](https://papers.nips.cc/paper/2020/hash/aa0d2a804a3510442f2fd40f2100b054-Abstract.html)[[Code]](https://github.com/HC-Feynman/vpu)
+
+-----
+### KDD 2020
+* Semi-Supervised Multi-Label Learning from Crowds via Deep Sequential Generative Model.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/Classification%20LNL-16A34A)
+  [[Paper]](https://doi.org/10.1145/3394486.3403167)
+
 -----
 ### AAAI 2020
 * Reinforcement Learning with Perturbed Rewards. 
