@@ -39,7 +39,6 @@ A curated list of most recent papers & codes in Learning with Noisy Labels.
 ![Anomaly/OOD](https://img.shields.io/badge/task-Anomaly%2FOOD-EF4444?style=flat-square)
 ![Crowdsourcing](https://img.shields.io/badge/task-Crowdsourcing-F59E0B?style=flat-square)
 ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
-![General Cross-domain](https://img.shields.io/badge/task-General%20Cross--domain-475569?style=flat-square)
 
 <!-- TASK_TYPE_INDEX_START -->
 ## Task Type Quick Index
