@@ -306,20 +306,20 @@ Real-world noisy-label bechmarks:
 * <a id="paper-008"></a> **[P008]** Jump-teaching: Combating Sample Selection Bias via Temporal Disagreement.
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v40i26.39375)
+  [[Paper]](https://arxiv.org/abs/2405.17137)
 * <a id="paper-009"></a> **[P009]** On the Learning Dynamics of Two-layer Linear Networks with Label Noise SGD.
   ![Theory](https://img.shields.io/badge/Theory-6B7280)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v40i33.40069)
+  [[Paper]](https://arxiv.org/abs/2603.10397)
 * <a id="paper-010"></a> **[P010]** Mitigating Endogenous Confirmation Bias in Noisy Label Learning for Vision-Language Models.
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v40i29.39641)
+  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39641/43602)
 * <a id="paper-011"></a> **[P011]** Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval.
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
-  [[Paper]](https://researchportal.northumbria.ac.uk/en/publications/neighbor-aware-instance-refining-with-noisy-labels-for-cross-moda/)
+  [[Paper]](https://arxiv.org/abs/2512.24064)
 
 ### WACV 2026
 
@@ -500,29 +500,29 @@ Real-world noisy-label bechmarks:
 * <a id="paper-045"></a> **[P045]** Learning Causal Transition Matrix for Instance-dependent Label Noise.
   ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v39i17.34014)
+  [[Paper]](https://arxiv.org/abs/2412.13516)
 * <a id="paper-046"></a> **[P046]** Learning from Noisy Labels via Self-Taught On-the-Fly Meta Loss Rescaling.
   ![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v39i22.34580)
+  [[Paper]](https://arxiv.org/abs/2412.12955)
 * <a id="paper-047"></a> **[P047]** Noisy Label Calibration for Multi-View Classification.
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v39i20.35485)
+  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/35485/37640)
 * <a id="paper-048"></a> **[P048]** Enhanced Sample Selection with Confidence Tracking: Identifying Correctly Labeled Yet Hard-to-Learn Samples in Noisy Data.
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v39i19.34180)
+  [[Paper]](https://arxiv.org/abs/2504.17474)
 * <a id="paper-049"></a> **[P049]** Optimized Gradient Clipping for Noisy Label Learning.
   ![Loss Correction](https://img.shields.io/badge/Loss%20Correction-F43F5E)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v39i9.33025)
+  [[Paper]](https://arxiv.org/abs/2412.08941)
 
 * <a id="paper-050"></a> **[P050]** Robust Logit Adjustment for Learning with Long-Tailed Noisy Data.
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Loss Correction](https://img.shields.io/badge/Loss%20Correction-F43F5E)
   ![Long-tailed Learning](https://img.shields.io/badge/task-Long--tailed%20Learning-B45309?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v39i15.33738)
+  [[Paper]](https://openreview.net/forum?id=PQ43wVvbvz)
 
 ### Other Conferences 2025
 
