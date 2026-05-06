@@ -764,7 +764,7 @@ Real-world noisy-label bechmarks:
 * <a id="paper-099"></a> **[P099]** [[**Sxu**]](https://github.com/SenyuHou) Which Is More Effective in Label Noise Cleaning, Correction or Filtering?
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v38i11.29183)
+  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29183/30238)
 
 * <a id="paper-100"></a> **[P100]** Learning with Noisy Labels via Hashing Mutual Information Waiting.
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
@@ -773,11 +773,11 @@ Real-world noisy-label bechmarks:
 * <a id="paper-101"></a> **[P101]** FedDiv: Collaborative Noise Filtering for Federated Learning with Noisy Labels.
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Federated Learning](https://img.shields.io/badge/task-Federated%20Learning-0284C7?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v38i4.28153)
+  [[Paper]](https://arxiv.org/abs/2312.12263)
 * <a id="paper-102"></a> **[P102]** Unlocking the Power of Open Set: A New Perspective for Open-Set Noisy Label Learning.
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Anomaly/OOD](https://img.shields.io/badge/task-Anomaly%2FOOD-EF4444?style=flat-square)
-  [[Paper]](https://doi.org/10.1609/aaai.v38i14.29377)
+  [[Paper]](https://arxiv.org/abs/2305.04203)
 
 ### Top Journals 2024
 
