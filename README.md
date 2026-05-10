@@ -858,6 +858,15 @@ Real-world noisy-label bechmarks:
   ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
   ![Medical Imaging](https://img.shields.io/badge/task-Medical%20Imaging-DB2777?style=flat-square)
   [[Paper]](https://proceedings.mlr.press/v235/wu24g.html)
+* <a id="paper-541"></a> **[P541]** Don't Label Twice: Quantity Beats Quality when Comparing Binary Classifiers on a Budget.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Crowdsourcing](https://img.shields.io/badge/task-Crowdsourcing-F59E0B?style=flat-square)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v235/dorner24a.html)
+* <a id="paper-542"></a> **[P542]** Stochastic Conditional Diffusion Models for Robust Semantic Image Synthesis.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Generative Models](https://img.shields.io/badge/task-Generative%20Models-8B5CF6?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v235/ko24e.html)
 
 ---
 
@@ -1289,6 +1298,24 @@ Real-world noisy-label bechmarks:
   ![Theory](https://img.shields.io/badge/Theory-6B7280)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
   [[Paper]](https://proceedings.mlr.press/v202/ortiz-jimenez23a)
+* <a id="paper-543"></a> **[P543]** Random Classification Noise does not defeat All Convex Potential Boosters Irrespective of Model Choice.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v202/mansour23a.html)
+* <a id="paper-544"></a> **[P544]** Robustly Learning a Single Neuron via Sharpness.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v202/wang23aq.html)
+* <a id="paper-545"></a> **[P545]** GraphCleaner: Detecting Mislabelled Samples in Popular Graph Learning Benchmarks.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Graph Data](https://img.shields.io/badge/task-Graph%20Data-16A34A?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v202/li23ai.html)
+* <a id="paper-546"></a> **[P546]** Label Distributionally Robust Losses for Multi-class Classification: Consistency, Robustness and Adaptivity.
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v202/zhu23o.html)
 * <a id="paper-186"></a> **[P186]** Deep Clustering with Incomplete Noisy Pairwise Annotations: A Geometric Regularization Approach.
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Crowdsourcing](https://img.shields.io/badge/task-Crowdsourcing-F59E0B?style=flat-square)
@@ -1703,10 +1730,10 @@ Real-world noisy-label bechmarks:
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
   [[Paper]](https://arxiv.org/abs/2202.14026)[[Code]](https://github.com/shengliu66/SOP)
-* <a id="paper-269"></a> **[P269]** Estimating Instance-dependent Label-noise Transition Matrix using DNNs.
+* <a id="paper-269"></a> **[P269]** Estimating Instance-dependent Bayes-label Transition Matrix using a Deep Neural Network.
   ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://arxiv.org/abs/2105.13001)
+  [[Paper]](https://proceedings.mlr.press/v162/yang22p.html)
 * <a id="paper-270"></a> **[P270]** Guaranteed Robust Deep Learning against Extreme Label Noise using Self-supervised Learning.
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
@@ -1721,6 +1748,11 @@ Real-world noisy-label bechmarks:
 * <a id="paper-273"></a> **[P273]** Guaranteed Robust Deep Learning against Extreme Label Noise using Self-supervised Learning.
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+* <a id="paper-547"></a> **[P547]** Transfer and Marginalize: Explaining Away Label Noise with Privileged Information.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v162/collier22a.html)
 
 ---
 
@@ -2032,10 +2064,10 @@ Real-world noisy-label bechmarks:
 
 ### ICML 2021
 
-* <a id="paper-327"></a> **[P327]** The importance of understanding instance-level noisy labels.
+* <a id="paper-327"></a> **[P327]** Understanding Instance-Level Label Noise: Disparate Impacts and Treatments.
   ![Theory](https://img.shields.io/badge/Theory-6B7280)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://arxiv.org/pdf/2102.05336.pdf)
+  [[Paper]](https://proceedings.mlr.press/v139/liu21a.html)
 * <a id="paper-328"></a> **[P328]** Clusterability as an Alternative to Anchor Points When Learning with Noisy Labels.
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
@@ -2071,6 +2103,18 @@ Real-world noisy-label bechmarks:
 * <a id="paper-336"></a> **[P336]** Learning from Noisy Labels with No Change to the Training Process.
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
   [[Paper]](http://proceedings.mlr.press/v139/zhang21k/zhang21k.pdf)
+* <a id="paper-548"></a> **[P548]** Provable Robustness of Adversarial Training for Learning Halfspaces with Noise.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v139/zou21a.html)
+* <a id="paper-549"></a> **[P549]** Agnostic Learning of Halfspaces with Gradient Descent via Soft Margins.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v139/frei21a.html)
+* <a id="paper-550"></a> **[P550]** On the Power of Localized Perceptron for Label-Optimal Learning of Halfspaces with Adversarial Noise.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v139/shen21a.html)
 
 ---
 
@@ -2590,6 +2634,10 @@ Real-world noisy-label bechmarks:
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
   [[Paper]](http://proceedings.mlr.press/v119/bahri20a.html)
+* <a id="paper-551"></a> **[P551]** Certified Robustness to Label-Flipping Attacks via Randomized Smoothing.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.mlr.press/v119/rosenfeld20b.html)
 * <a id="paper-455"></a> **[P455]** Self-PU: Self Boosted and Calibrated Positive-Unlabeled Training.
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
