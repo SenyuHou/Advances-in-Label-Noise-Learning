@@ -299,6 +299,7 @@ Real-world noisy-label bechmarks:
 ### ICLR 2026
 
 * <a id="paper-001"></a> **[P001]** Enhancing Learning with Noisy Labels via Rockafellian Relaxation.
+  ![Loss Correction](https://img.shields.io/badge/Loss%20Correction-F43F5E)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
   [[Paper]](https://openreview.net/forum?id=g4EpGiN5X3)
 * <a id="paper-002"></a> **[P002]** TrainRef: Curating Data with Label Distribution and Minimal Reference for Accurate Prediction and Reliable Confidence.
@@ -327,6 +328,37 @@ Real-world noisy-label bechmarks:
   ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
   ![LLM Alignment](https://img.shields.io/badge/task-LLM%20Alignment-9333EA?style=flat-square)
   [[Paper]](https://openreview.net/forum?id=jDKpOvTCM8)
+* <a id="paper-518"></a> **[P518]** Conformal Prediction with Corrupted Labels: Uncertain Imputation and Robust Re-weighting.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://iclr.cc/virtual/2026/poster/10006410)
+* <a id="paper-519"></a> **[P519]** Aligner, Diagnose Thyself: A Meta-Learning Paradigm for Fusing Intrinsic Feedback in Preference Alignment.
+  ![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![LLM Alignment](https://img.shields.io/badge/task-LLM%20Alignment-9333EA?style=flat-square)
+  [[Paper]](https://iclr.cc/virtual/2026/poster/10007430)
+* <a id="paper-520"></a> **[P520]** GNN-as-Judge: Unleashing the Power of LLMs for Graph Few-shot Semi-supervised Learning with GNN Feedback.
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Graph Data](https://img.shields.io/badge/task-Graph%20Data-16A34A?style=flat-square)
+  ![LLM Alignment](https://img.shields.io/badge/task-LLM%20Alignment-9333EA?style=flat-square)
+  [[Paper]](https://iclr.cc/virtual/2026/poster/10007476)
+* <a id="paper-521"></a> **[P521]** Task-Aware Data Selection via Proxy-Label Enhanced Distribution Matching for LLM Finetuning.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![NLP/Text](https://img.shields.io/badge/task-NLP%2FText-7C3AED?style=flat-square)
+  ![LLM Alignment](https://img.shields.io/badge/task-LLM%20Alignment-9333EA?style=flat-square)
+  [[Paper]](https://iclr.cc/virtual/2026/poster/10009535)
+* <a id="paper-522"></a> **[P522]** Noisy-Pair Robust Representation Alignment for Positive-Unlabeled Learning.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
+  [[Paper]](https://iclr.cc/virtual/2026/poster/10006926)
+* <a id="paper-523"></a> **[P523]** Align-SAM: Seeking Flatter Minima for Better Cross-Subset Alignment.
+  ![Loss Correction](https://img.shields.io/badge/Loss%20Correction-F43F5E)
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://iclr.cc/virtual/2026/poster/10009992)
 
 ---
 
@@ -552,6 +584,21 @@ Real-world noisy-label bechmarks:
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Audio/Video](https://img.shields.io/badge/task-Audio%2FVideo-0EA5E9?style=flat-square)
   [[Paper]](https://openreview.net/forum?id=DydCqKa6AH)[[Code]](https://genforce.github.io/PedGen/)
+* <a id="paper-524"></a> **[P524]** Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
+  [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2025/hash/a8b879590adff2b1874f97db59b65518-Abstract-Conference.html)
+* <a id="paper-525"></a> **[P525]** Rethinking Self-Distillation: Label Averaging and Enhanced Soft Label Refinement with Partial Labels.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
+  [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2025/hash/9d4824d834b5fe8e6b53dcfe42cab8d2-Abstract-Conference.html)
+* <a id="paper-526"></a> **[P526]** Multi-Task Dense Predictions via Unleashing the Power of Diffusion.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Generative Models](https://img.shields.io/badge/task-Generative%20Models-8B5CF6?style=flat-square)
+  ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
+  [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2025/hash/2f2b1d6bbd50865eca40e2774a057eef-Abstract-Conference.html)
 
 ---
 
@@ -840,6 +887,8 @@ Real-world noisy-label bechmarks:
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
   [[Paper]](https://openreview.net/forum?id=A4mJuFRMN8)
 * <a id="paper-109"></a> **[P109]** Robust Classification via Regression for Learning with Noisy Labels.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
   [[Paper]](https://openreview.net/forum?id=wfgZc3IMqo)
 * <a id="paper-110"></a> **[P110]** Label-Noise Robust Diffusion Models.
@@ -858,6 +907,29 @@ Real-world noisy-label bechmarks:
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
   [[Paper]](https://openreview.net/forum?id=WOiOzHG2zD)
+* <a id="paper-527"></a> **[P527]** Understanding Domain Generalization: A Noise Robustness Perspective.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Anomaly/OOD](https://img.shields.io/badge/task-Anomaly%2FOOD-EF4444?style=flat-square)
+  [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2024/hash/5b289299aeb8e1023cd6ca4ae0178cbb-Abstract-Conference.html)
+* <a id="paper-528"></a> **[P528]** An Efficient Tester-Learner for Halfspaces.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2024/hash/a759e253661be0fa3ffe3e37959ecc5e-Abstract-Conference.html)
+* <a id="paper-529"></a> **[P529]** VDC: Versatile Data Cleanser based on Visual-Linguistic Inconsistency by Multimodal Large Language Models.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
+  ![LLM Alignment](https://img.shields.io/badge/task-LLM%20Alignment-9333EA?style=flat-square)
+  [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2024/hash/518046d86bbc41a0707727c38301ad8e-Abstract-Conference.html)
+* <a id="paper-530"></a> **[P530]** To Grok or not to Grok: Disentangling Generalization and Memorization on Corrupted Algorithmic Datasets.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2024/hash/105fdc31cc9eb927cc5a0110f4031287-Abstract-Conference.html)
+* <a id="paper-531"></a> **[P531]** Unmasking and Improving Data Credibility: A Study with Datasets for Training Harmless Language Models.
+  ![Datasets](https://img.shields.io/badge/Datasets-0F766E)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![NLP/Text](https://img.shields.io/badge/task-NLP%2FText-7C3AED?style=flat-square)
+  ![LLM Alignment](https://img.shields.io/badge/task-LLM%20Alignment-9333EA?style=flat-square)
+  [[Paper]](https://proceedings.iclr.cc/paper_files/paper/2024/hash/c3837ae3d17a91b08bf5cc19280e7fd2-Abstract-Conference.html)
 
 ---
 
