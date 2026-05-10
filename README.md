@@ -50,32 +50,10 @@ If you are specifically interested in standard classification tasks in LNL, plea
 
 ## Statistical Overview
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="outputs/figures/yearly_lnl_trend.png" alt="Publication trends in Learning with Noisy Labels" width="100%">
-      <br>
-      <sub>Publication trends by year and task domain.</sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="outputs/figures/technical_keyword_ranking.png" alt="Top technical keywords in Learning with Noisy Labels" width="100%">
-      <br>
-      <sub>Top technical keywords in Classification LNL.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="outputs/figures/task_type_distribution.png" alt="Task type distribution in Learning with Noisy Labels" width="100%">
-      <br>
-      <sub>Task expansion beyond standard classification.</sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="outputs/figures/LNL_wordcloud_2020_to_2026.png" alt="Technical keyword word cloud from 2020 to 2026" width="100%">
-      <br>
-      <sub>Technical keyword word cloud for 2020-2026.</sub>
-    </td>
-  </tr>
-</table>
+| Publication Trends | Technical Keywords |
+| --- | --- |
+| ![Publication trends in Learning with Noisy Labels](./outputs/figures/yearly_lnl_trend.png)<br><sub>Publication trends by year and task domain.</sub> | ![Top technical keywords in Learning with Noisy Labels](./outputs/figures/technical_keyword_ranking.png)<br><sub>Top technical keywords in Classification LNL.</sub> |
+| ![Task type distribution in Learning with Noisy Labels](./outputs/figures/task_type_distribution.png)<br><sub>Task expansion beyond standard classification.</sub> | ![Technical keyword word cloud from 2020 to 2026](./outputs/figures/LNL_wordcloud_2020_to_2026.png)<br><sub>Technical keyword word cloud for 2020-2026.</sub> |
 
 <!-- TASK_TYPE_INDEX_START -->
 ## Task Type Quick Index
