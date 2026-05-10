@@ -1,6 +1,8 @@
 # Learning-with-Noisy-Labels
 
 A curated list of most recent papers & codes in Learning with Noisy Labels.
+If you are specifically interested in standard classification tasks in LNL, please refer to [Advances-in-LNL-for-Standard-Classification](https://github.com/SenyuHou/Advances-in-LNL-for-Standard-Classification).
+
 ---------------------------------------------------------------------------
 
 ## Tag Legend
