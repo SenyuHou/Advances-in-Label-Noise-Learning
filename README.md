@@ -362,6 +362,32 @@ Real-world noisy-label bechmarks:
 
 ---
 
+### CVPR 2026
+
+* <a id="paper-552"></a> **[P552]** Beyond Loss Values: Robust Dynamic Pruning via Loss Trajectory Alignment.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://arxiv.org/abs/2604.07306)
+* <a id="paper-553"></a> **[P553]** Deconstructing the Failure of Ideal Noise Correction: A Three-Pillar Diagnosis.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://arxiv.org/abs/2603.12997)
+* <a id="paper-554"></a> **[P554]** KαLOS finds Consensus: A Meta-Algorithm for Evaluating Inter-Annotator Agreement in Complex Vision Tasks.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Crowdsourcing](https://img.shields.io/badge/task-Crowdsourcing-F59E0B?style=flat-square)
+  [[Paper]](https://www.uni-weimar.de/en/media/chairs/computer-science-department/computer-vision/publications/)
+* <a id="paper-555"></a> **[P555]** Debiased Sample Selection for Learning with Noisy Labels.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://www.eric-weiwei.com/)
+* <a id="paper-556"></a> **[P556]** Text-Anchored Guided Optimization for Robust Fine-tuning Vision-Language Models under Label Noise.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
+  [[Paper]](https://www.eric-weiwei.com/)
+
+---
+
 ### AAAI 2026
 
 * <a id="paper-008"></a> **[P008]** Leveraging Dissimilarity Invariance as a Robust Anchor for Learning with Noisy Labels.
@@ -568,6 +594,7 @@ Real-world noisy-label bechmarks:
 * <a id="paper-044"></a> **[P044]** DiN: Diffusion Model for Robust Medical VQA with Semantic Noisy Labels.
   ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
   ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
+  ![Medical Imaging](https://img.shields.io/badge/task-Medical%20Imaging-DB2777?style=flat-square)
   [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_DiN_Diffusion_Model_for_Robust_Medical_VQA_with_Semantic_Noisy_CVPR_2025_paper.html)
 * <a id="paper-045"></a> **[P045]** Theory-Inspired Deep Multi-View Multi-Label Learning with Incomplete Views and Noisy Labels.
   ![Theory](https://img.shields.io/badge/Theory-6B7280)
@@ -578,6 +605,16 @@ Real-world noisy-label bechmarks:
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
   [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Fang_Minding_Fuzzy_Regions_A_Data-driven_Alternating_Learning_Paradigm_for_Stable_CVPR_2025_paper.html)
+* <a id="paper-557"></a> **[P557]** ROLL: Robust Noisy Pseudo-label Learning for Multi-View Clustering with Noisy Correspondence.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Multimodal](https://img.shields.io/badge/task-Multimodal-0F766E?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Sun_ROLL_Robust_Noisy_Pseudo-label_Learning_for_Multi-View_Clustering_with_Noisy_CVPR_2025_paper.html)
+* <a id="paper-558"></a> **[P558]** The Impact Label Noise and Choice of Threshold has on Cross-Entropy and Soft-Dice in Image Segmentation.
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Nordstrom_The_Impact_Label_Noise_and_Choice_of_Threshold_has_on_CVPR_2025_paper.html)
 
 ---
 
@@ -875,19 +912,39 @@ Real-world noisy-label bechmarks:
 * <a id="paper-101"></a> **[P101]** Estimating Noisy Class Posterior with Part-level Labels for Noisy Label Learning.
   ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Estimating_Noisy_Class_Posterior_with_Part-level_Labels_for_Noisy_Label_Learning_CVPR_2024_paper.html)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Estimating_Noisy_Class_Posterior_with_Part-level_Labels_for_Noisy_Label_CVPR_2024_paper.html)
 * <a id="paper-102"></a> **[P102]** Learning with Structural Labels for Learning with Noisy Labels.
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Learning_with_Structural_Labels_for_Learning_with_Noisy_Labels_CVPR_2024_paper.html)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Kim_Learning_with_Structural_Labels_for_Learning_with_Noisy_Labels_CVPR_2024_paper.html)
 * <a id="paper-103"></a> **[P103]** Learning Discriminative Dynamics with Label Corruption for Noisy Label Detection.
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
-  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Learning_Discriminative_Dynamics_with_Label_Corruption_for_Noisy_Label_Detection_CVPR_2024_paper.html)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Kim_Learning_Discriminative_Dynamics_with_Label_Corruption_for_Noisy_Label_Detection_CVPR_2024_paper.html)
 * <a id="paper-104"></a> **[P104]** A Noisy Elephant in the Room: Is Your Out-of-Distribution Detector Robust to Label Noise?
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Anomaly/OOD](https://img.shields.io/badge/task-Anomaly%2FOOD-EF4444?style=flat-square)
-  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Lee_A_Noisy_Elephant_in_the_Room_Is_Your_Out-of-Distribution_Detector_Robust_CVPR_2024_paper.html)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Humblot-Renaux_A_Noisy_Elephant_in_the_Room_Is_Your_Out-of-Distribution_Detector_CVPR_2024_paper.html)
+* <a id="paper-559"></a> **[P559]** L2B: Learning to Bootstrap Robust Models for Combating Label Noise.
+  ![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_L2B_Learning_to_Bootstrap_Robust_Models_for_Combating_Label_Noise_CVPR_2024_paper.html)
+* <a id="paper-560"></a> **[P560]** HPL-ESS: Hybrid Pseudo-Labeling for Unsupervised Event-based Semantic Segmentation.
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
+  ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Jing_HPL-ESS_Hybrid_Pseudo-Labeling_for_Unsupervised_Event-based_Semantic_Segmentation_CVPR_2024_paper.html)
+* <a id="paper-561"></a> **[P561]** JoAPR: Cleaning the Lens of Prompt Learning for Vision-Language Models.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Guo_JoAPR_Cleaning_the_Lens_of_Prompt_Learning_for_Vision-Language_Models_CVPR_2024_paper.html)
+* <a id="paper-562"></a> **[P562]** Stable Neighbor Denoising for Source-free Domain Adaptive Segmentation.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Stable_Neighbor_Denoising_for_Source-free_Domain_Adaptive_Segmentation_CVPR_2024_paper.html)
 
 ---
 
@@ -1390,6 +1447,26 @@ Real-world noisy-label bechmarks:
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
   [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Feng_RONO_Robust_Discriminative_Learning_With_Noisy_Labels_for_2D-3D_Cross-Modal_CVPR_2023_paper.pdf)[[Code]](https://github.com/penghu-cs/RONO)
+* <a id="paper-563"></a> **[P563]** How To Prevent the Continuous Damage of Noises To Model Training?
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Yu_How_To_Prevent_the_Continuous_Damage_of_Noises_To_Model_CVPR_2023_paper.html)
+* <a id="paper-564"></a> **[P564]** Texture-Guided Saliency Distilling for Unsupervised Salient Object Detection.
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
+  ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_Texture-Guided_Saliency_Distilling_for_Unsupervised_Salient_Object_Detection_CVPR_2023_paper.html)
+* <a id="paper-565"></a> **[P565]** Semi-Supervised Domain Adaptation With Source Label Adaptation.
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Semi-Supervised_Domain_Adaptation_With_Source_Label_Adaptation_CVPR_2023_paper.html)
+* <a id="paper-566"></a> **[P566]** Data-Efficient Large Scale Place Recognition With Graded Similarity Supervision.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Leyva-Vallina_Data-Efficient_Large_Scale_Place_Recognition_With_Graded_Similarity_Supervision_CVPR_2023_paper.html)
 
 ---
 
@@ -1776,6 +1853,46 @@ Real-world noisy-label bechmarks:
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
   [[Paper]](https://arxiv.org/abs/2110.03740)[[Code]](https://github.com/Kangningthu/ADELE)
+* <a id="paper-567"></a> **[P567]** Noise Is Also Useful: Negative Correlation-Steered Latent Contrastive Learning.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Yan_Noise_Is_Also_Useful_Negative_Correlation-Steered_Latent_Contrastive_Learning_CVPR_2022_paper.html)
+* <a id="paper-568"></a> **[P568]** Learning From Pixel-Level Noisy Label: A New Perspective for Light Field Saliency Detection.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Feng_Learning_From_Pixel-Level_Noisy_Label_A_New_Perspective_for_Light_CVPR_2022_paper.html)
+* <a id="paper-569"></a> **[P569]** PNP: Robust Learning From Noisy Labels by Probabilistic Noise Prediction.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Sun_PNP_Robust_Learning_From_Noisy_Labels_by_Probabilistic_Noise_Prediction_CVPR_2022_paper.html)
+* <a id="paper-570"></a> **[P570]** Mutual Quantization for Cross-Modal Search With Noisy Labels.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Mutual_Quantization_for_Cross-Modal_Search_With_Noisy_Labels_CVPR_2022_paper.html)
+* <a id="paper-571"></a> **[P571]** Few-Shot Learning With Noisy Labels.
+  ![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Liang_Few-Shot_Learning_With_Noisy_Labels_CVPR_2022_paper.html)
+* <a id="paper-572"></a> **[P572]** UniCon: Combating Label Noise Through Uniform Selection and Contrastive Learning.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Karim_UniCon_Combating_Label_Noise_Through_Uniform_Selection_and_Contrastive_Learning_CVPR_2022_paper.html)
+* <a id="paper-573"></a> **[P573]** Learning With Twin Noisy Labels for Visible-Infrared Person Re-Identification.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Learning_With_Twin_Noisy_Labels_for_Visible-Infrared_Person_Re-Identification_CVPR_2022_paper.html)
+* <a id="paper-574"></a> **[P574]** Instance-Dependent Label-Noise Learning With Manifold-Regularized Transition Matrix Estimation.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Cheng_Instance-Dependent_Label-Noise_Learning_With_Manifold-Regularized_Transition_Matrix_Estimation_CVPR_2022_paper.html)
+* <a id="paper-575"></a> **[P575]** The Devil Is in the Labels: Noisy Label Correction for Robust Scene Graph Generation.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Graph Data](https://img.shields.io/badge/task-Graph%20Data-16A34A?style=flat-square)
+  ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Li_The_Devil_Is_in_the_Labels_Noisy_Label_Correction_for_CVPR_2022_paper.html)
 
 ---
 
@@ -2244,6 +2361,18 @@ Real-world noisy-label bechmarks:
   ![Semi-supervised](https://img.shields.io/badge/Semi--supervised-22C55E)
   ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
   [[Paper]](https://arxiv.org/abs/2103.16725)[[Code]](https://github.com/zijian-hu/SimPLE)
+* <a id="paper-576"></a> **[P576]** ProSelfLC: Progressive Self Label Correction for Training Robust Deep Neural Networks.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_ProSelfLC_Progressive_Self_Label_Correction_for_Training_Robust_Deep_Neural_CVPR_2021_paper.html)
+* <a id="paper-577"></a> **[P577]** Re-Labeling ImageNet: From Single to Multi-Labels, From Global to Localized Labels.
+  ![Datasets](https://img.shields.io/badge/Datasets-0F766E)
+  ![Multi-Label](https://img.shields.io/badge/task-Multi--Label-BE185D?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Yun_Re-Labeling_ImageNet_From_Single_to_Multi-Labels_From_Global_to_Localized_CVPR_2021_paper.html)
+* <a id="paper-578"></a> **[P578]** Learning Cross-Modal Retrieval With Noisy Labels.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Hu_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.html)
 
 ---
 
@@ -2867,6 +2996,15 @@ Real-world noisy-label bechmarks:
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
   [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Yuan_Revisiting_Knowledge_Distillation_via_Label_Smoothing_Regularization_CVPR_2020_paper.html)[[Code]](https://github.com/yuanli2333/Teacher-free-Knowledge-Distillation)
+* <a id="paper-579"></a> **[P579]** Learning From Web Data With Self-Organizing Memory Module.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Tu_Learning_From_Web_Data_With_Self-Organizing_Memory_Module_CVPR_2020_paper.html)
+* <a id="paper-580"></a> **[P580]** Task Agnostic Robust Learning on Corrupt Outputs by Correlation-Guided Mixture Density Networks.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Choi_Task_Agnostic_Robust_Learning_on_Corrupt_Outputs_by_Correlation-Guided_Mixture_CVPR_2020_paper.html)
 
 ---
 
