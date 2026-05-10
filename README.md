@@ -18,6 +18,7 @@ A curated list of most recent papers & codes in Learning with Noisy Labels.
 ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
 ![Theory](https://img.shields.io/badge/Theory-6B7280)
 ![Datasets](https://img.shields.io/badge/Datasets-0F766E)
+![Other Robust Techniques](https://img.shields.io/badge/Other%20Robust%20Techniques-64748B)
 
 ### Task Type
 
@@ -77,100 +78,124 @@ A curated list of most recent papers & codes in Learning with Noisy Labels.
 
 > Paper numbers are clickable and jump to the corresponding entries below. Classification LNL is omitted here because it contains many entries.
 
-### Long-tailed Learning (13)
+### Long-tailed Learning (18)
 ![Long-tailed Learning](https://img.shields.io/badge/task-Long--tailed%20Learning-B45309?style=flat-square)
 
-[P020](#paper-020), [P035](#paper-035), [P061](#paper-061), [P091](#paper-091), [P144](#paper-144), [P147](#paper-147), [P219](#paper-219), [P259](#paper-259), [P285](#paper-285), [P429](#paper-429), [P438](#paper-438), [P439](#paper-439), [P484](#paper-484)
+[P031](#paper-031), [P044](#paper-044), [P067](#paper-067), [P080](#paper-080), [P110](#paper-110), [P160](#paper-160), [P188](#paper-188), [P249](#paper-249), [P285](#paper-285), [P288](#paper-288), [P303](#paper-303), [P305](#paper-305), [P376](#paper-376), [P383](#paper-383), [P549](#paper-549), [P558](#paper-558), [P559](#paper-559), [P586](#paper-586)
 
-### Multi-Label (11)
+### Multi-Label (21)
 ![Multi-Label](https://img.shields.io/badge/task-Multi--Label-BE185D?style=flat-square)
 
-[P024](#paper-024), [P045](#paper-045), [P131](#paper-131), [P146](#paper-146), [P151](#paper-151), [P158](#paper-158), [P246](#paper-246), [P431](#paper-431), [P457](#paper-457), [P486](#paper-486), [P493](#paper-493)
+[P035](#paper-035), [P060](#paper-060), [P132](#paper-132), [P174](#paper-174), [P182](#paper-182), [P190](#paper-190), [P287](#paper-287), [P293](#paper-293), [P308](#paper-308), [P310](#paper-310), [P317](#paper-317), [P332](#paper-332), [P442](#paper-442), [P445](#paper-445), [P476](#paper-476), [P551](#paper-551), [P603](#paper-603), [P644](#paper-644),
+[P652](#paper-652), [P653](#paper-653), [P654](#paper-654)
 
-### Graph Data (15)
+### Graph Data (29)
 ![Graph Data](https://img.shields.io/badge/task-Graph%20Data-16A34A?style=flat-square)
 
-[P014](#paper-014), [P029](#paper-029), [P071](#paper-071), [P090](#paper-090), [P096](#paper-096), [P111](#paper-111), [P132](#paper-132), [P142](#paper-142), [P173](#paper-173), [P236](#paper-236), [P289](#paper-289), [P322](#paper-322), [P361](#paper-361), [P504](#paper-504), [P512](#paper-512)
+[P010](#paper-010), [P025](#paper-025), [P040](#paper-040), [P090](#paper-090), [P109](#paper-109), [P117](#paper-117), [P125](#paper-125), [P127](#paper-127), [P140](#paper-140), [P159](#paper-159), [P172](#paper-172), [P173](#paper-173), [P183](#paper-183), [P185](#paper-185), [P189](#paper-189), [P210](#paper-210), [P213](#paper-213), [P229](#paper-229),
+[P283](#paper-283), [P310](#paper-310), [P320](#paper-320), [P365](#paper-365), [P387](#paper-387), [P472](#paper-472), [P497](#paper-497), [P552](#paper-552), [P619](#paper-619), [P625](#paper-625), [P633](#paper-633)
 
-### Object Detection (6)
+### Object Detection (31)
 ![Object Detection](https://img.shields.io/badge/task-Object%20Detection-EA580C?style=flat-square)
 
-[P030](#paper-030), [P149](#paper-149), [P197](#paper-197), [P263](#paper-263), [P505](#paper-505), [P506](#paper-506)
+[P041](#paper-041), [P089](#paper-089), [P104](#paper-104), [P151](#paper-151), [P152](#paper-152), [P162](#paper-162), [P163](#paper-163), [P185](#paper-185), [P189](#paper-189), [P227](#paper-227), [P250](#paper-250), [P266](#paper-266), [P267](#paper-267), [P268](#paper-268), [P272](#paper-272), [P290](#paper-290), [P300](#paper-300), [P308](#paper-308),
+[P318](#paper-318), [P334](#paper-334), [P358](#paper-358), [P361](#paper-361), [P380](#paper-380), [P381](#paper-381), [P391](#paper-391), [P453](#paper-453), [P532](#paper-532), [P624](#paper-624), [P626](#paper-626), [P627](#paper-627), [P632](#paper-632)
 
-### Segmentation (24)
+### Segmentation (36)
 ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
 
-[P037](#paper-037), [P046](#paper-046), [P062](#paper-062), [P087](#paper-087), [P141](#paper-141), [P145](#paper-145), [P176](#paper-176), [P193](#paper-193), [P213](#paper-213), [P224](#paper-224), [P234](#paper-234), [P241](#paper-241), [P247](#paper-247), [P277](#paper-277), [P286](#paper-286), [P287](#paper-287), [P362](#paper-362), [P377](#paper-377), [P430](#paper-430), [P434](#paper-434), [P481](#paper-481), [P509](#paper-509), [P511](#paper-511), [P516](#paper-516)
+[P056](#paper-056), [P061](#paper-061), [P063](#paper-063), [P069](#paper-069), [P081](#paper-081), [P106](#paper-106), [P147](#paper-147), [P153](#paper-153), [P155](#paper-155), [P162](#paper-162), [P216](#paper-216), [P243](#paper-243), [P254](#paper-254), [P263](#paper-263), [P270](#paper-270), [P272](#paper-272), [P282](#paper-282), [P286](#paper-286),
+[P318](#paper-318), [P325](#paper-325), [P333](#paper-333), [P360](#paper-360), [P361](#paper-361), [P384](#paper-384), [P385](#paper-385), [P392](#paper-392), [P473](#paper-473), [P484](#paper-484), [P550](#paper-550), [P554](#paper-554), [P567](#paper-567), [P583](#paper-583), [P630](#paper-630), [P632](#paper-632), [P648](#paper-648), [P658](#paper-658)
 
-### NLP/Text (9)
+### NLP/Text (67)
 ![NLP/Text](https://img.shields.io/badge/task-NLP%2FText-7C3AED?style=flat-square)
 
-[P004](#paper-004), [P072](#paper-072), [P077](#paper-077), [P112](#paper-112), [P114](#paper-114), [P178](#paper-178), [P325](#paper-325), [P436](#paper-436), [P441](#paper-441)
+[P004](#paper-004), [P005](#paper-005), [P007](#paper-007), [P009](#paper-009), [P011](#paper-011), [P018](#paper-018), [P042](#paper-042), [P045](#paper-045), [P048](#paper-048), [P053](#paper-053), [P082](#paper-082), [P091](#paper-091), [P096](#paper-096), [P124](#paper-124), [P130](#paper-130), [P141](#paper-141), [P142](#paper-142), [P143](#paper-143),
+[P144](#paper-144), [P146](#paper-146), [P147](#paper-147), [P191](#paper-191), [P192](#paper-192), [P195](#paper-195), [P218](#paper-218), [P229](#paper-229), [P242](#paper-242), [P246](#paper-246), [P264](#paper-264), [P266](#paper-266), [P272](#paper-272), [P306](#paper-306), [P308](#paper-308), [P312](#paper-312), [P317](#paper-317), [P345](#paper-345),
+[P346](#paper-346), [P365](#paper-365), [P390](#paper-390), [P408](#paper-408), [P422](#paper-422), [P426](#paper-426), [P436](#paper-436), [P441](#paper-441), [P447](#paper-447), [P454](#paper-454), [P484](#paper-484), [P494](#paper-494), [P495](#paper-495), [P527](#paper-527), [P535](#paper-535), [P538](#paper-538), [P556](#paper-556), [P561](#paper-561),
+[P581](#paper-581), [P586](#paper-586), [P598](#paper-598), [P607](#paper-607), [P610](#paper-610), [P611](#paper-611), [P612](#paper-612), [P621](#paper-621), [P623](#paper-623), [P641](#paper-641), [P651](#paper-651), [P654](#paper-654), [P656](#paper-656)
 
-### Vision-Language (11)
+### Vision-Language (22)
 ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
 
-[P012](#paper-012), [P013](#paper-013), [P043](#paper-043), [P044](#paper-044), [P085](#paper-085), [P113](#paper-113), [P117](#paper-117), [P148](#paper-148), [P212](#paper-212), [P216](#paper-216), [P337](#paper-337)
+[P018](#paper-018), [P023](#paper-023), [P024](#paper-024), [P058](#paper-058), [P059](#paper-059), [P079](#paper-079), [P104](#paper-104), [P129](#paper-129), [P142](#paper-142), [P145](#paper-145), [P154](#paper-154), [P195](#paper-195), [P226](#paper-226), [P242](#paper-242), [P246](#paper-246), [P289](#paper-289), [P365](#paper-365), [P426](#paper-426),
+[P427](#paper-427), [P447](#paper-447), [P578](#paper-578), [P609](#paper-609)
 
-### Multimodal (1)
+### Multimodal (4)
 ![Multimodal](https://img.shields.io/badge/task-Multimodal-0F766E?style=flat-square)
 
-[P235](#paper-235)
+[P062](#paper-062), [P128](#paper-128), [P186](#paper-186), [P319](#paper-319)
 
-### LLM Alignment (8)
+### LLM Alignment (28)
 ![LLM Alignment](https://img.shields.io/badge/task-LLM%20Alignment-9333EA?style=flat-square)
 
-[P007](#paper-007), [P041](#paper-041), [P084](#paper-084), [P086](#paper-086), [P092](#paper-092), [P097](#paper-097), [P099](#paper-099), [P261](#paper-261)
+[P006](#paper-006), [P007](#paper-007), [P009](#paper-009), [P010](#paper-010), [P011](#paper-011), [P012](#paper-012), [P013](#paper-013), [P016](#paper-016), [P018](#paper-018), [P024](#paper-024), [P026](#paper-026), [P049](#paper-049), [P058](#paper-058), [P085](#paper-085), [P103](#paper-103), [P104](#paper-104), [P105](#paper-105), [P111](#paper-111),
+[P118](#paper-118), [P120](#paper-120), [P124](#paper-124), [P125](#paper-125), [P129](#paper-129), [P145](#paper-145), [P147](#paper-147), [P154](#paper-154), [P289](#paper-289), [P378](#paper-378)
 
-### Medical Imaging (6)
+### Medical Imaging (14)
 ![Medical Imaging](https://img.shields.io/badge/task-Medical%20Imaging-DB2777?style=flat-square)
 
-[P047](#paper-047), [P062](#paper-062), [P089](#paper-089), [P100](#paper-100), [P432](#paper-432), [P517](#paper-517)
+[P050](#paper-050), [P059](#paper-059), [P061](#paper-061), [P081](#paper-081), [P108](#paper-108), [P121](#paper-121), [P291](#paper-291), [P293](#paper-293), [P307](#paper-307), [P552](#paper-552), [P583](#paper-583), [P648](#paper-648), [P658](#paper-658), [P659](#paper-659)
 
-### Federated Learning (11)
+### Federated Learning (14)
 ![Federated Learning](https://img.shields.io/badge/task-Federated%20Learning-0284C7?style=flat-square)
 
-[P015](#paper-015), [P018](#paper-018), [P023](#paper-023), [P040](#paper-040), [P075](#paper-075), [P127](#paper-127), [P128](#paper-128), [P129](#paper-129), [P222](#paper-222), [P223](#paper-223), [P291](#paper-291)
+[P026](#paper-026), [P029](#paper-029), [P034](#paper-034), [P048](#paper-048), [P094](#paper-094), [P161](#paper-161), [P178](#paper-178), [P179](#paper-179), [P180](#paper-180), [P187](#paper-187), [P252](#paper-252), [P253](#paper-253), [P305](#paper-305), [P395](#paper-395)
 
-### Time Series (9)
+### Time Series (17)
 ![Time Series](https://img.shields.io/badge/task-Time%20Series-0891B2?style=flat-square)
 
-[P031](#paper-031), [P048](#paper-048), [P093](#paper-093), [P143](#paper-143), [P171](#paper-171), [P172](#paper-172), [P226](#paper-226), [P437](#paper-437), [P440](#paper-440)
+[P022](#paper-022), [P026](#paper-026), [P042](#paper-042), [P051](#paper-051), [P082](#paper-082), [P087](#paper-087), [P089](#paper-089), [P112](#paper-112), [P211](#paper-211), [P212](#paper-212), [P256](#paper-256), [P284](#paper-284), [P304](#paper-304), [P396](#paper-396), [P482](#paper-482), [P557](#paper-557), [P560](#paper-560)
 
-### Retrieval (11)
+### Retrieval (29)
 ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
 
-[P016](#paper-016), [P017](#paper-017), [P065](#paper-065), [P066](#paper-066), [P069](#paper-069), [P201](#paper-201), [P276](#paper-276), [P290](#paper-290), [P293](#paper-293), [P308](#paper-308), [P466](#paper-466)
+[P011](#paper-011), [P027](#paper-027), [P028](#paper-028), [P043](#paper-043), [P084](#paper-084), [P085](#paper-085), [P088](#paper-088), [P131](#paper-131), [P209](#paper-209), [P271](#paper-271), [P274](#paper-274), [P283](#paper-283), [P292](#paper-292), [P359](#paper-359), [P362](#paper-362), [P364](#paper-364), [P388](#paper-388), [P397](#paper-397),
+[P410](#paper-410), [P427](#paper-427), [P443](#paper-443), [P470](#paper-470), [P471](#paper-471), [P477](#paper-477), [P533](#paper-533), [P539](#paper-539), [P542](#paper-542), [P612](#paper-612), [P637](#paper-637)
 
-### Generative Models (8)
+### Generative Models (27)
 ![Generative Models](https://img.shields.io/badge/task-Generative%20Models-8B5CF6?style=flat-square)
 
-[P006](#paper-006), [P036](#paper-036), [P088](#paper-088), [P098](#paper-098), [P110](#paper-110), [P153](#paper-153), [P326](#paper-326), [P502](#paper-502)
+[P006](#paper-006), [P031](#paper-031), [P053](#paper-053), [P056](#paper-056), [P057](#paper-057), [P059](#paper-059), [P068](#paper-068), [P069](#paper-069), [P107](#paper-107), [P119](#paper-119), [P123](#paper-123), [P124](#paper-124), [P139](#paper-139), [P142](#paper-142), [P209](#paper-209), [P264](#paper-264), [P312](#paper-312), [P345](#paper-345),
+[P365](#paper-365), [P426](#paper-426), [P495](#paper-495), [P538](#paper-538), [P622](#paper-622), [P623](#paper-623), [P641](#paper-641), [P654](#paper-654), [P656](#paper-656)
 
-### Audio/Video (7)
+### Audio/Video (11)
 ![Audio/Video](https://img.shields.io/badge/task-Audio%2FVideo-0EA5E9?style=flat-square)
 
-[P050](#paper-050), [P063](#paper-063), [P068](#paper-068), [P196](#paper-196), [P262](#paper-262), [P480](#paper-480), [P483](#paper-483)
+[P053](#paper-053), [P082](#paper-082), [P087](#paper-087), [P242](#paper-242), [P246](#paper-246), [P266](#paper-266), [P268](#paper-268), [P284](#paper-284), [P379](#paper-379), [P582](#paper-582), [P585](#paper-585)
 
-### 3D/Point Cloud (2)
+### 3D/Point Cloud (9)
 ![3D/Point Cloud](https://img.shields.io/badge/task-3D%2FPoint%20Cloud-64748B?style=flat-square)
 
-[P174](#paper-174), [P199](#paper-199)
+[P142](#paper-142), [P214](#paper-214), [P269](#paper-269), [P271](#paper-271), [P290](#paper-290), [P325](#paper-325), [P378](#paper-378), [P567](#paper-567), [P581](#paper-581)
 
-### Anomaly/OOD (19)
+### Anomaly/OOD (28)
 ![Anomaly/OOD](https://img.shields.io/badge/task-Anomaly%2FOOD-EF4444?style=flat-square)
 
-[P005](#paper-005), [P012](#paper-012), [P063](#paper-063), [P064](#paper-064), [P070](#paper-070), [P076](#paper-076), [P104](#paper-104), [P126](#paper-126), [P157](#paper-157), [P170](#paper-170), [P198](#paper-198), [P220](#paper-220), [P233](#paper-233), [P248](#paper-248), [P260](#paper-260), [P295](#paper-295), [P320](#paper-320), [P378](#paper-378), [P427](#paper-427)
+[P005](#paper-005), [P023](#paper-023), [P082](#paper-082), [P083](#paper-083), [P089](#paper-089), [P095](#paper-095), [P102](#paper-102), [P143](#paper-143), [P152](#paper-152), [P161](#paper-161), [P176](#paper-176), [P177](#paper-177), [P185](#paper-185), [P189](#paper-189), [P210](#paper-210), [P250](#paper-250), [P268](#paper-268), [P300](#paper-300),
+[P316](#paper-316), [P334](#paper-334), [P372](#paper-372), [P377](#paper-377), [P412](#paper-412), [P424](#paper-424), [P528](#paper-528), [P543](#paper-543), [P547](#paper-547), [P568](#paper-568)
 
-### Crowdsourcing (12)
+### Crowdsourcing (33)
 ![Crowdsourcing](https://img.shields.io/badge/task-Crowdsourcing-F59E0B?style=flat-square)
 
-[P019](#paper-019), [P152](#paper-152), [P186](#paper-186), [P194](#paper-194), [P195](#paper-195), [P211](#paper-211), [P258](#paper-258), [P425](#paper-425), [P428](#paper-428), [P435](#paper-435), [P442](#paper-442), [P492](#paper-492)
+[P017](#paper-017), [P030](#paper-030), [P052](#paper-052), [P102](#paper-102), [P103](#paper-103), [P122](#paper-122), [P133](#paper-133), [P208](#paper-208), [P230](#paper-230), [P241](#paper-241), [P243](#paper-243), [P264](#paper-264), [P265](#paper-265), [P311](#paper-311), [P314](#paper-314), [P325](#paper-325), [P335](#paper-335), [P351](#paper-351),
+[P360](#paper-360), [P375](#paper-375), [P425](#paper-425), [P443](#paper-443), [P540](#paper-540), [P545](#paper-545), [P546](#paper-546), [P548](#paper-548), [P555](#paper-555), [P557](#paper-557), [P562](#paper-562), [P582](#paper-582), [P643](#paper-643), [P650](#paper-650), [P654](#paper-654)
 
-### Weak Supervision (37)
+### Weak Supervision (87)
 ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
 
-[P049](#paper-049), [P062](#paper-062), [P065](#paper-065), [P068](#paper-068), [P130](#paper-130), [P131](#paper-131), [P150](#paper-150), [P154](#paper-154), [P155](#paper-155), [P156](#paper-156), [P175](#paper-175), [P177](#paper-177), [P187](#paper-187), [P214](#paper-214), [P215](#paper-215), [P217](#paper-217), [P218](#paper-218), [P221](#paper-221), [P225](#paper-225), [P283](#paper-283), [P287](#paper-287), [P288](#paper-288), [P290](#paper-290), [P292](#paper-292), [P345](#paper-345), [P346](#paper-346), [P363](#paper-363), [P364](#paper-364), [P426](#paper-426), [P433](#paper-433), [P455](#paper-455), [P456](#paper-456), [P482](#paper-482), [P485](#paper-485), [P491](#paper-491), [P503](#paper-503), [P510](#paper-510)
+[P010](#paper-010), [P012](#paper-012), [P052](#paper-052), [P054](#paper-054), [P055](#paper-055), [P062](#paper-062), [P081](#paper-081), [P084](#paper-084), [P087](#paper-087), [P126](#paper-126), [P132](#paper-132), [P153](#paper-153), [P162](#paper-162), [P164](#paper-164), [P174](#paper-174), [P181](#paper-181), [P182](#paper-182), [P191](#paper-191),
+[P213](#paper-213), [P215](#paper-215), [P216](#paper-216), [P217](#paper-217), [P231](#paper-231), [P244](#paper-244), [P245](#paper-245), [P247](#paper-247), [P248](#paper-248), [P251](#paper-251), [P255](#paper-255), [P263](#paper-263), [P268](#paper-268), [P269](#paper-269), [P272](#paper-272), [P284](#paper-284), [P291](#paper-291), [P308](#paper-308),
+[P309](#paper-309), [P310](#paper-310), [P313](#paper-313), [P314](#paper-314), [P315](#paper-315), [P317](#paper-317), [P330](#paper-330), [P352](#paper-352), [P363](#paper-363), [P378](#paper-378), [P379](#paper-379), [P380](#paper-380), [P381](#paper-381), [P385](#paper-385), [P386](#paper-386), [P388](#paper-388), [P393](#paper-393), [P394](#paper-394),
+[P396](#paper-396), [P409](#paper-409), [P426](#paper-426), [P442](#paper-442), [P443](#paper-443), [P444](#paper-444), [P445](#paper-445), [P446](#paper-446), [P455](#paper-455), [P456](#paper-456), [P473](#paper-473), [P474](#paper-474), [P475](#paper-475), [P484](#paper-484), [P495](#paper-495), [P546](#paper-546), [P553](#paper-553), [P568](#paper-568),
+[P584](#paper-584), [P586](#paper-586), [P587](#paper-587), [P601](#paper-601), [P602](#paper-602), [P612](#paper-612), [P620](#paper-620), [P621](#paper-621), [P622](#paper-622), [P624](#paper-624), [P626](#paper-626), [P631](#paper-631), [P636](#paper-636), [P642](#paper-642), [P653](#paper-653)
+
+### Other Tasks (41)
+![Other Tasks](https://img.shields.io/badge/task-Other%20Tasks-6B7280?style=flat-square)
+
+[P008](#paper-008), [P086](#paper-086), [P100](#paper-100), [P101](#paper-101), [P138](#paper-138), [P175](#paper-175), [P206](#paper-206), [P207](#paper-207), [P228](#paper-228), [P239](#paper-239), [P240](#paper-240), [P273](#paper-273), [P324](#paper-324), [P331](#paper-331), [P373](#paper-373), [P374](#paper-374), [P407](#paper-407), [P423](#paper-423),
+[P437](#paper-437), [P438](#paper-438), [P439](#paper-439), [P440](#paper-440), [P469](#paper-469), [P483](#paper-483), [P529](#paper-529), [P530](#paper-530), [P531](#paper-531), [P534](#paper-534), [P536](#paper-536), [P537](#paper-537), [P541](#paper-541), [P544](#paper-544), [P579](#paper-579), [P580](#paper-580), [P599](#paper-599), [P600](#paper-600),
+[P608](#paper-608), [P634](#paper-634), [P635](#paper-635), [P649](#paper-649), [P657](#paper-657)
 
 <!-- TASK_TYPE_INDEX_END -->
 
@@ -185,76 +210,80 @@ An advanced data-centric AI platform that detects and rectifies issues in any da
 
 ## 📦 Content
 
+
 - [Task Type Quick Index](#task-type-quick-index)
 - [Benchmarks](#benchmarks)
 - [Papers & Code in 2026](#papers--code-in-2026)
-  - [ICLR 2026](#ICLR-2026)
-  - [AAAI 2026](#AAAI-2026)
-  - [WACV 2026](#WACV-2026)
-  - [Top Journals 2026](#Top-Journals-2026)
+  - [ICLR 2026](#iclr-2026)
+  - [CVPR 2026](#cvpr-2026)
+  - [AAAI 2026](#aaai-2026)
+  - [WACV 2026](#wacv-2026)
+  - [Top Journals 2026](#top-journals-2026)
 - [Papers & Code in 2025](#papers--code-in-2025)
-  - [NeurIPS 2025](#NeurIPS-2025)
-  - [ICCV 2025](#ICCV-2025)
-  - [ICML 2025](#ICML-2025)
-  - [CVPR 2025](#CVPR-2025)
-  - [ICLR 2025](#ICLR-2025)
-  - [AAAI 2025](#AAAI-2025)
-  - [Other Conferences 2025](#Other-Conferences-2025)
-  - [Top Journals 2025](#Top-Journals-2025)
+  - [NeurIPS 2025](#neurips-2025)
+  - [ICML 2025](#icml-2025)
+  - [ICLR 2025](#iclr-2025)
+  - [CVPR 2025](#cvpr-2025)
+  - [ICCV 2025](#iccv-2025)
+  - [AAAI 2025](#aaai-2025)
+  - [Other Conferences 2025](#other-conferences-2025)
+  - [Top Journals 2025](#top-journals-2025)
 - [Papers & Code in 2024](#papers--code-in-2024)
-  - [NeurIPS 2024](#NeurIPS-2024)
-  - [ICML 2024](#ICML-2024)
-  - [CVPR 2024](#CVPR-2024)
-  - [ICLR 2024](#ICLR-2024)
-  - [KDD 2024](#KDD-2024)
-  - [ACM MM 2024](#ACM-MM-2024)
-  - [AAAI 2024](#AAAI-2024)
-  - [Top Journals 2024](#Top-Journals-2024)
+  - [Neurips 2024](#neurips-2024)
+  - [ICML 2024](#icml-2024)
+  - [ICLR 2024](#iclr-2024)
+  - [CVPR 2024](#cvpr-2024)
+  - [ECCV 2024](#eccv-2024)
+  - [AAAI 2024](#aaai-2024)
+  - [IJCAI 2024](#ijcai-2024)
+  - [KDD 2024](#kdd-2024)
+  - [ACM MM 2024](#acm-mm-2024)
+  - [Top Journals 2024](#top-journals-2024)
 - [Papers & Code in 2023](#papers--code-in-2023)
-  - [ICCV 2023](#ICCV-2023)
-  - [KDD 2023](#KDD-2023)
-  - [NeurIPS 2023](#NeurIPS-2023)
-  - [ICML 2023](#ICML-2023)
-  - [CVPR 2023](#CVPR-2023)
-  - [ICLR 2023](#ICLR-2023)
-  - [AAAI 2023](#AAAI-2023)
-  - [ACM MM 2023](#ACM-MM-2023)
-  - [Top Journals 2023](#Top-Journals-2023)
+  - [NeurIPS 2023](#neurips-2023)
+  - [ICML 2023](#icml-2023)
+  - [ICLR 2023](#iclr-2023)
+  - [CVPR 2023](#cvpr-2023)
+  - [ICCV 2023](#iccv-2023)
+  - [AAAI 2023](#aaai-2023)
+  - [IJCAI 2023](#ijcai-2023)
+  - [KDD 2023](#kdd-2023)
+  - [ACM MM 2023](#acm-mm-2023)
+  - [Top Journals 2023](#top-journals-2023)
 - [Papers & Code in 2022](#papers--code-in-2022)
-  - [NeurIPS 2022](#NeurIPS-2022)
-  - [ECCV 2022](#ECCV-2022)
-  - [ICML 2022](#ICML-2022)
-  - [CVPR 2022](#CVPR-2022)
-  - [ICLR 2022](#ICLR-2022)
-  - [AAAI 2022](#AAAI-2022)
-  - [KDD 2022](#KDD-2022)
-  - [ACM MM 2022](#ACM-MM-2022)
-  - [Top Journals 2022](#Top-Journals-2022)
-  - [AISTATS 2022](#AISTATS-2022)
-  - [Other Conferences 2022](#Other-Conferences-2022)
-  - [ArXiv 2022](#ArXiv-2022)
+  - [NeurIPS 2022](#neurips-2022)
+  - [ICML 2022](#icml-2022)
+  - [ICLR 2022](#iclr-2022)
+  - [CVPR 2022](#cvpr-2022)
+  - [ECCV 2022](#eccv-2022)
+  - [AAAI 2022](#aaai-2022)
+  - [IJCAI 2022](#ijcai-2022)
+  - [KDD 2022](#kdd-2022)
+  - [ACM MM 2022](#acm-mm-2022)
+  - [ArXiv 2022](#arxiv-2022)
+  - [Top Journals 2022](#top-journals-2022)
 - [Papers & Code in 2021](#papers--code-in-2021)
-  - [NeurIPS 2021](#NeurIPS-2021)
-  - [KDD 2021](#KDD-2021)
-  - [ACM MM 2021](#ACM-MM-2021)
-  - [IJCAI 2021](#IJCAI-2021)
-  - [ICML 2021](#ICML-2021)
-  - [ICLR 2021](#ICLR-2021)
-  - [CVPR 2021](#CVPR-2021)
-  - [AISTATS 2021](#AISTATS-2021)
-  - [AAAI 2021](#AAAI-2021)
-  - [Other Conferences 2021](#Other-Conferences-2021)
-  - [ArXiv 2021](#ArXiv-2021)
+  - [NeurIPS 2021](#neurips-2021)
+  - [ICML 2021](#icml-2021)
+  - [ICLR 2021](#iclr-2021)
+  - [CVPR 2021](#cvpr-2021)
+  - [ICCV 2021](#iccv-2021)
+  - [AAAI 2021](#aaai-2021)
+  - [IJCAI 2021](#ijcai-2021)
+  - [KDD 2021](#kdd-2021)
+  - [ACM MM 2021](#acm-mm-2021)
+  - [ArXiv 2021](#arxiv-2021)
+  - [Other Conferences 2021](#other-conferences-2021)
 - [Papers & Code in 2020](#papers--code-in-2020)
-  - [ICML 2020](#ICML-2020)
-  - [ICLR 2020](#ICLR-2020)
-  - [Nips 2020](#Nips-2020)
-  - [KDD 2020](#KDD-2020)
-  - [AAAI 2020](#AAAI-2020)
-  - [CVPR 2020](#CVPR-2020)
-  - [ECCV 2020](#ECCV-2020)
-  - [ArXiv 2020](#ArXiv-2020)
-
+  - [NIPS 2020](#nips-2020)
+  - [ICML 2020](#icml-2020)
+  - [ICLR 2020](#iclr-2020)
+  - [CVPR 2020](#cvpr-2020)
+  - [ECCV 2020](#eccv-2020)
+  - [AAAI 2020](#aaai-2020)
+  - [IJCAI 2020](#ijcai-2020)
+  - [KDD 2020](#kdd-2020)
+  - [ArXiv 2020](#arxiv-2020)
 ---
 
 ## 📊 Benchmarks
