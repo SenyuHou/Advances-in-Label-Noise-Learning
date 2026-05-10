@@ -1,2 +1,16 @@
-tools/review_standard_classification_lnl.py
-tools/export_standard_classification_lnl.py
+# Ignore everything by default.
+*
+
+# Keep repository control files and README.
+!.gitignore
+!README.md
+
+# Keep only the four generated PNG figures used for presentation.
+!outputs/
+outputs/*
+!outputs/figures/
+outputs/figures/*
+!outputs/figures/LNL_wordcloud_2020_to_2026.png
+!outputs/figures/technical_keyword_ranking.png
+!outputs/figures/yearly_lnl_trend.png
+!outputs/figures/task_type_distribution.png
