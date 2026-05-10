@@ -6,11 +6,8 @@
 !README.md
 
 # Keep only the four generated PNG figures used for presentation.
-!outputs/
-outputs/*
-!outputs/figures/
-outputs/figures/*
-!outputs/figures/LNL_wordcloud_2020_to_2026.png
-!outputs/figures/technical_keyword_ranking.png
-!outputs/figures/yearly_lnl_trend.png
-!outputs/figures/task_type_distribution.png
+!figs/
+!figs/LNL_wordcloud_2020_to_2026.png
+!figs/task_type_distribution.png
+!figs/technical_keyword_ranking.png
+!figs/yearly_lnl_trend.png
