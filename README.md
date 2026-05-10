@@ -948,6 +948,50 @@ Real-world noisy-label bechmarks:
 
 ---
 
+### ECCV 2024
+
+* <a id="paper-581"></a> **[P581]** Instance-dependent Noisy-label Learning with Graphical Model Based Noise-rate Estimation.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/589_ECCV_2024_paper.php)
+* <a id="paper-582"></a> **[P582]** Distribution-Aware Robust Learning from Long-Tailed Data with Noisy Labels.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Long-tailed Learning](https://img.shields.io/badge/task-Long--tailed%20Learning-B45309?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2177_ECCV_2024_paper.php)
+* <a id="paper-583"></a> **[P583]** Foster Adaptivity and Balance in Learning with Noisy Labels.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3908_ECCV_2024_paper.php)
+* <a id="paper-584"></a> **[P584]** LNL+K: Enhancing Learning with Noisy Labels Through Noise Source Knowledge Integration.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7862_ECCV_2024_paper.php)
+* <a id="paper-585"></a> **[P585]** MTaDCS: Moving Trace and Feature Density-based Confidence Sample Selection under Label Noise.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8968_ECCV_2024_paper.php)
+* <a id="paper-586"></a> **[P586]** Federated Learning with Local Openset Noisy Labels.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Federated Learning](https://img.shields.io/badge/task-Federated%20Learning-0284C7?style=flat-square)
+  ![Anomaly/OOD](https://img.shields.io/badge/task-Anomaly%2FOOD-EF4444?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/4952_ECCV_2024_paper.php)
+* <a id="paper-587"></a> **[P587]** Learning Camouflaged Object Detection from Noisy Pseudo Label.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/51_ECCV_2024_paper.php)
+* <a id="paper-588"></a> **[P588]** An accurate detection is not all you need to combat label noise in web-noisy datasets.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Object Detection](https://img.shields.io/badge/task-Object%20Detection-EA580C?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06511.pdf)
+* <a id="paper-589"></a> **[P589]** De-Confusing Pseudo-Labels in Source-Free Domain Adaptation.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10138.pdf)
+
+---
+
 ### ICLR 2024
 
 * <a id="paper-105"></a> **[P105]** Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks.
@@ -1197,6 +1241,20 @@ Real-world noisy-label bechmarks:
   ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
   ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
   [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Shao_LNPL-MIL_Learning_from_Noisy_Pseudo_Labels_for_Promoting_Multiple_Instance_ICCV_2023_paper.pdf)[[Code]](https://github.com/szc19990412/LNPL-MIL)
+* <a id="paper-590"></a> **[P590]** Late Stopping: Avoiding Confidently Learning from Mislabeled Examples.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Yuan_Late_Stopping_Avoiding_Confidently_Learning_from_Mislabeled_Examples_ICCV_2023_paper.html)
+* <a id="paper-591"></a> **[P591]** Prototypical Mixing and Retrieval-Based Refinement for Label Noise-Resistant Image Retrieval.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Yang_Prototypical_Mixing_and_Retrieval-Based_Refinement_for_Label_Noise-Resistant_Image_Retrieval_ICCV_2023_paper.html)
+* <a id="paper-592"></a> **[P592]** Enhanced Meta Label Correction for Coping with Label Corruption.
+  ![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Taraday_Enhanced_Meta_Label_Correction_for_Coping_with_Label_Corruption_ICCV_2023_paper.html)
 * <a id="paper-151"></a> **[P151]** BoMD: Bag of Multi-label Descriptors for Noisy Chest X-ray Classification.
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Multi-Label](https://img.shields.io/badge/task-Multi--Label-BE185D?style=flat-square)
@@ -1782,6 +1840,12 @@ Real-world noisy-label bechmarks:
   ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
   ![Object Detection](https://img.shields.io/badge/task-Object%20Detection-EA580C?style=flat-square)
   [[Paper]](https://arxiv.org/abs/2203.16317)[[Code]](https://github.com/ligang-cs/PseCo)
+* <a id="paper-593"></a> **[P593]** W2N: Switching from Weak Supervision to Noisy Supervision for Object Detection.
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Object Detection](https://img.shields.io/badge/task-Object%20Detection-EA580C?style=flat-square)
+  ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4020_ECCV_2022_paper.php)
 
 ### ICML 2022
 
@@ -2373,6 +2437,43 @@ Real-world noisy-label bechmarks:
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
   [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Hu_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.html)
+
+---
+
+### ICCV 2021
+
+* <a id="paper-594"></a> **[P594]** Me-Momentum: Extracting Hard Confident Examples From Noisily Labeled Data.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Bai_Me-Momentum_Extracting_Hard_Confident_Examples_From_Noisily_Labeled_Data_ICCV_2021_paper.html)
+* <a id="paper-595"></a> **[P595]** Searching for Robustness: Loss Learning for Noisy Classification Tasks.
+  ![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
+  ![Robust Loss](https://img.shields.io/badge/Robust%20Loss-EF4444)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Gao_Searching_for_Robustness_Loss_Learning_for_Noisy_Classification_Tasks_ICCV_2021_paper.html)
+* <a id="paper-596"></a> **[P596]** Learning From Noisy Data With Robust Representation Learning.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Li_Learning_From_Noisy_Data_With_Robust_Representation_Learning_ICCV_2021_paper.html)
+* <a id="paper-597"></a> **[P597]** Continual Learning on Noisy Data Streams via Self-Purified Replay.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Time Series](https://img.shields.io/badge/task-Time%20Series-0891B2?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Continual_Learning_on_Noisy_Data_Streams_via_Self-Purified_Replay_ICCV_2021_paper.html)
+* <a id="paper-598"></a> **[P598]** Adaptive Label Noise Cleaning With Meta-Supervision for Deep Face Recognition.
+  ![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Adaptive_Label_Noise_Cleaning_With_Meta-Supervision_for_Deep_Face_Recognition_ICCV_2021_paper.html)
+* <a id="paper-599"></a> **[P599]** Switchable K-Class Hyperplanes for Noise-Robust Representation Learning.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Switchable_K-Class_Hyperplanes_for_Noise-Robust_Representation_Learning_ICCV_2021_paper.html)
+* <a id="paper-600"></a> **[P600]** Uncertainty-Aware Pseudo Label Refinery for Domain Adaptive Semantic Segmentation.
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Segmentation](https://img.shields.io/badge/task-Segmentation-F97316?style=flat-square)
+  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Uncertainty-Aware_Pseudo_Label_Refinery_for_Domain_Adaptive_Semantic_Segmentation_ICCV_2021_paper.html)
 
 ---
 
@@ -3061,6 +3162,23 @@ Real-world noisy-label bechmarks:
   ![Semi-supervised](https://img.shields.io/badge/Semi--supervised-22C55E)
   ![Graph Data](https://img.shields.io/badge/task-Graph%20Data-16A34A?style=flat-square)
   [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1060_ECCV_2020_paper.php)
+* <a id="paper-601"></a> **[P601]** Robust and On-the-fly Dataset Denoising for Image Classification.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740545.pdf)
+* <a id="paper-602"></a> **[P602]** Sub-center ArcFace: Boosting Face Recognition by Large-scale Noisy Web Faces.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1445_ECCV_2020_paper.php)
+* <a id="paper-603"></a> **[P603]** Webly Supervised Image Classification with Self-Contained Confidence.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/701_ECCV_2020_paper.php)
+* <a id="paper-604"></a> **[P604]** Unsupervised Domain Adaptation with Noise Resistible Mutual-Training for Person Re-identification.
+  ![Semi-Supervised](https://img.shields.io/badge/Semi--Supervised-22C55E)
+  ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
+  [[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1391_ECCV_2020_paper.php)
 
 ---
 
