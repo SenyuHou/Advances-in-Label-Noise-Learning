@@ -488,6 +488,21 @@ Real-world noisy-label bechmarks:
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Time Series](https://img.shields.io/badge/task-Time%20Series-0891B2?style=flat-square)
   [[Paper]](https://nips.cc/virtual/2025/poster/118975)
+* <a id="paper-532"></a> **[P532]** SEGA: Shaping Semantic Geometry for Robust Hashing under Noisy Supervision.
+  ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
+  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0663a39baab211328fc865f91abc75ab-Abstract-Conference.html)
+* <a id="paper-533"></a> **[P533]** Unlocker: Disentangle the Deadlock of Learning between Label-noisy and Long-tailed Data.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Meta-Learning](https://img.shields.io/badge/Meta--Learning-A855F7)
+  ![Long-tailed Learning](https://img.shields.io/badge/task-Long--tailed%20Learning-B45309?style=flat-square)
+  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/bcfcf7232cb74e1ef82d751880ff835b-Abstract-Conference.html)
+* <a id="paper-534"></a> **[P534]** How Does Label Noise Gradient Descent Improve Generalization in the Low SNR Regime?
+  ![Theory](https://img.shields.io/badge/Theory-6B7280)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/ffab50f3cad7cb5733ca324e5be20976-Abstract-Conference.html)
 
 ### ICCV 2025
 
@@ -1576,6 +1591,21 @@ Real-world noisy-label bechmarks:
   ![Representation Learning](https://img.shields.io/badge/Representation%20Learning-14B8A6)
   ![Anomaly/OOD](https://img.shields.io/badge/task-Anomaly%2FOOD-EF4444?style=flat-square)
   [[Paper & Code]](https://openreview.net/forum?id=pIYYJflkhZ)
+* <a id="paper-535"></a> **[P535]** Noise Attention Learning: Enhancing Noise Robustness by Gradient Scaling.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Loss Correction](https://img.shields.io/badge/Loss%20Correction-F43F5E)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/92864e1191ed272deb0914b3bb50f97c-Abstract-Conference.html)
+* <a id="paper-536"></a> **[P536]** Confidence-based Reliable Learning under Dual Noises.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/e444859b2a22df6b56af9381ad1e9480-Abstract-Conference.html)
+* <a id="paper-537"></a> **[P537]** Is one annotation enough? - A data-centric image classification benchmark for noisy and ambiguous label estimation.
+  ![Datasets](https://img.shields.io/badge/Datasets-0F766E)
+  ![Crowdsourcing](https://img.shields.io/badge/task-Crowdsourcing-F59E0B?style=flat-square)
+  ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
+  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/d6c03035b8bc551f474f040fe8607cab-Abstract-Datasets_and_Benchmarks.html)
 
 ---
 
@@ -1941,6 +1971,23 @@ Real-world noisy-label bechmarks:
   ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
   ![Anomaly/OOD](https://img.shields.io/badge/task-Anomaly%2FOOD-EF4444?style=flat-square)
   [[Paper]](https://arxiv.org/abs/2106.10891)[[Code]](https://github.com/hongxin001/ODNL)
+* <a id="paper-538"></a> **[P538]** Interactive Label Cleaning with Example-based Explanations.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Crowdsourcing](https://img.shields.io/badge/task-Crowdsourcing-F59E0B?style=flat-square)
+  [[Paper]](https://proceedings.neurips.cc/paper/2021/hash/6c349155b122aa8ad5c877007e05f24f-Abstract.html)
+* <a id="paper-539"></a> **[P539]** Learning to Generate Visual Questions with Noisy Supervision.
+  ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
+  ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
+  ![Generative Models](https://img.shields.io/badge/task-Generative%20Models-8B5CF6?style=flat-square)
+  ![Weak Supervision](https://img.shields.io/badge/task-Weak%20Supervision-4B5563?style=flat-square)
+  [[Paper]](https://proceedings.neurips.cc/paper/2021/hash/60792d855cd8a912a97711f91a1f155c-Abstract.html)
+* <a id="paper-540"></a> **[P540]** Learning with Noisy Correspondence for Cross-modal Matching.
+  ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
+  ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
+  ![Retrieval](https://img.shields.io/badge/task-Retrieval-2563EB?style=flat-square)
+  ![Vision-Language](https://img.shields.io/badge/task-Vision--Language-0D9488?style=flat-square)
+  [[Paper]](https://proceedings.neurips.cc/paper/2021/hash/f5e62af885293cf4d511ceef31e61c80-Abstract.html)
 
 ### KDD 2021
 
