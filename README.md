@@ -674,7 +674,7 @@ Real-world noisy-label bechmarks:
 
 ### Top Journals 2026
 
-* <a id="paper-051"></a> **[P051]** [[**Sxu**]](https://github.com/SenyuHou) Class-Aware Multi-Granularity Co-Diffusion Models for Learning With Noisy Labels on Imbalanced Datasets. (Published on TKDE)
+* <a id="paper-051"></a> **[P051]** [[**SXU**]](https://github.com/SenyuHou) Class-Aware Multi-Granularity Co-Diffusion Models for Learning With Noisy Labels on Imbalanced Datasets. (Published on TKDE)
   ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
   ![Datasets](https://img.shields.io/badge/Datasets-0F766E)
   ![Long-tailed Learning](https://img.shields.io/badge/task-Long--tailed%20Learning-B45309?style=flat-square)
@@ -701,7 +701,7 @@ Real-world noisy-label bechmarks:
 
 ### NeurIPS 2025
 
-* <a id="paper-055"></a> **[P055]** [[**Sxu**]](https://github.com/SenyuHou) Noisy Multi-Label Learning through Co-Occurrence-Aware Diffusion.
+* <a id="paper-055"></a> **[P055]** [[**SXU**]](https://github.com/SenyuHou) Noisy Multi-Label Learning through Co-Occurrence-Aware Diffusion.
   ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
   ![Multi-Label](https://img.shields.io/badge/task-Multi--Label-BE185D?style=flat-square)
   [[Paper]](https://neurips.cc/virtual/2025/poster/115033)
@@ -826,7 +826,7 @@ Real-world noisy-label bechmarks:
 
 ### CVPR 2025
 
-* <a id="paper-077"></a> **[P077]** [[**Sxu**]](https://github.com/SenyuHou) Directional Label Diffusion Model for Learning from Noisy Labels.
+* <a id="paper-077"></a> **[P077]** [[**SXU**]](https://github.com/SenyuHou) Directional Label Diffusion Model for Learning from Noisy Labels.
   ![Noise Modeling](https://img.shields.io/badge/Noise%20Modeling-8B5CF6)
   ![Generative Models](https://img.shields.io/badge/task-Generative%20Models-8B5CF6?style=flat-square)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
@@ -1595,7 +1595,7 @@ Real-world noisy-label bechmarks:
 
 ### AAAI 2024
 
-* <a id="paper-216"></a> **[P216]** [[**Sxu**]](https://github.com/SenyuHou) Which Is More Effective in Label Noise Cleaning, Correction or Filtering?
+* <a id="paper-216"></a> **[P216]** [[**SXU**]](https://github.com/SenyuHou) Which Is More Effective in Label Noise Cleaning, Correction or Filtering?
   ![Label Correction](https://img.shields.io/badge/Label%20Correction-3B82F6)
   ![Sample Selection](https://img.shields.io/badge/Sample%20Selection-F59E0B)
   ![Classification LNL](https://img.shields.io/badge/task-Classification%20LNL-DC2626?style=flat-square)
